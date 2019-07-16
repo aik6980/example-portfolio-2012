@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+
+<!-- Mirrored from my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog/51-week15-bottlenecks-learning-to-live-with-the-limitation?tmpl=component&print=1&layout=default&page= by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 23:19:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+   <base  />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="game, rendering, graphics, gpu" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="description" content="Game, Graphic programming, Guitar and Cooking " />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Week15 : Bottlenecks, learning to live with the limitation</title>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/core.js" type="text/javascript"></script>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/caption.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+  </script>
+
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/system/css/system.css" type="text/css" />
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/system/css/general.css" type="text/css" />
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/tpl_content01/css/print.css" type="text/css" />
+</head>
+<body class="contentpane">
+ 
+<div id="system-message-container">
+</div>
+ 
+
+<div class="item-page"><div class="art-post">
+    <div class="art-post-body">
+<div class="art-post-inner">
+<h2 class="art-postheader"> <a href="http://my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog/51-week15-bottlenecks-learning-to-live-with-the-limitation" class="PostHeader">Week15 : Bottlenecks, learning to live with the limitation</a></h2>
+<div class="art-postheadericons art-metadata-icons">
+<img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/postdateicon.png" alt="postdateicon" width="16" height="16" />Last Updated on Monday, 02 January 2012 09:51 | <a href="#" onclick="window.print();return false;"><img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/system/printButton.png" alt="Print"  /></a> | Hits: 777
+</div>
+<div class="art-postcontent">
+<div class="art-article"><h4>Understanding Bottlenecks<br /></h4>
+<p>In an ideal case, there won’t be any one bottleneck—the CPU, AGP bus, and GPU pipeline stages are all equally loaded. Unfortunately, that case is impossible to achieve in real-world applications—in practice, something always holds back performance.</p>
+<p>The bottleneck may reside on the CPU or the GPU. PerfHUD’s green shows how many milliseconds the GPU is idle during a frame. If the GPU is idle for even one millisecond per frame, it indicates that the application is at least partially CPU-limited. If the GPU is idle for a large percentage of frame time, or if it’s idle for even one millisecond in all frames and the application does not synchronize CPU and GPU, then the CPU is the biggest bottleneck. Improving GPU performance simply increases GPU idle time.</p>
+<div style="text-align: justify;">Another easy way to find out if your application is CPU-limited is to ignore all draw calls with PerfHUD (effectively simulating an infinitely fast GPU).  In the Performance Dashboard, simply press N.  If performance doesn’t change, then you are CPU-limited and you should use a tool like Intel’s VTune or AMD’s CodeAnalyst to optimize your CPU performance.</div>
+<h4 style="text-align: justify;">Bottleneck: GPU</h4>
+<p>GPUs are deeply pipelined architectures. If the GPU is the bottleneck, we need to find out which pipeline stage is the largest bottleneck.</p>
+<div style="text-align: justify;">PerfHUD simplifies things by letting you force various GPU and driver features on or off. For example, it can force a mipmap LOD bias to make all textures 2 × 2. If performance improves a lot, then texture cache misses are the</div>
+<div style="text-align: justify;">bottleneck. PerfHUD similarly permits control over pixel shader execution times by forcing all or part of the shaders to run in a single cycle.<br />PerfHUD also gives you detailed access to GPU performance counters and can automatically find your most expensive render states and draw calls, so we highly recommend that you use it if you are GPU-limited.</div>
+<h4 style="text-align: justify;">Bottleneck: CPU</h4>
+<p>Because the goal at this stage is to reduce the CPU overhead so that the CPU is no longer the bottleneck, it is relatively important what consumes the most CPU time. The usual advice applies: choose algorithmic improvements over <br />minor optimizations. And of course, find the biggest CPU consumers to yield the largest performance gains.</p>
+<p>PerfHUD also helps to identify driver overhead. It can display the amount of time spent in the driver per frame (plotted as a red line) and it graphs the number of batches drawn per frame.</p>
+<h4>Regarding my understanding so far..</h4>
+<p>Our main technique "geometry instancing" has been already stated in purpose to turn over the CPU bottleneck by trying to reduce the number of GPU function calls. Anyway, further CPU and GPU information still need to be collected in order to decide what is going to be the next best strategy.</p>
+<p> </p>
+<p> </p> </div>
+</div>
+<div class="cleared"></div>
+<div class="art-postmetadatafooter">
+<div class="art-postfootericons art-metadata-icons">
+<img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/postcategoryicon.png" alt="postcategoryicon" width="18" height="18" />Category: <span class="art-post-metadata-category-name"><a href="http://my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog">HonoursProjectBlog</a></span>
+</div>
+</div>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+</div>
+</body>
+
+<!-- Mirrored from my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog/51-week15-bottlenecks-learning-to-live-with-the-limitation?tmpl=component&print=1&layout=default&page= by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 23:19:57 GMT -->
+</html>

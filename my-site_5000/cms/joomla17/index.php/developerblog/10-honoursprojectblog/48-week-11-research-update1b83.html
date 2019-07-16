@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+
+<!-- Mirrored from my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog/48-week-11-research-update?tmpl=component&print=1&layout=default&page= by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 23:19:58 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+   <base  />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="game, rendering, graphics, gpu" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="description" content="Game, Graphic programming, Guitar and Cooking " />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Week 11 : Research update</title>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/core.js" type="text/javascript"></script>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/caption.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+  </script>
+
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/system/css/system.css" type="text/css" />
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/system/css/general.css" type="text/css" />
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/tpl_content01/css/print.css" type="text/css" />
+</head>
+<body class="contentpane">
+ 
+<div id="system-message-container">
+</div>
+ 
+
+<div class="item-page"><div class="art-post">
+    <div class="art-post-body">
+<div class="art-post-inner">
+<h2 class="art-postheader"> <a href="http://my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog/48-week-11-research-update" class="PostHeader">Week 11 : Research update</a></h2>
+<div class="art-postheadericons art-metadata-icons">
+<img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/postdateicon.png" alt="postdateicon" width="16" height="16" />Last Updated on Monday, 02 January 2012 09:51 | <a href="#" onclick="window.print();return false;"><img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/system/printButton.png" alt="Print"  /></a> | Hits: 684
+</div>
+<div class="art-postcontent">
+<div class="art-article"><p><span style="background-color: #fefefe;">This week, I got a feedback from Matt about the proposal revision. I'm very happy that is no major problem regarding to what he said. At this stage, I believe this proposal should be good enough for the coursework submission.</span><span style="background-color: #fefefe;"><br />At this stage, we again arranged the research meeting to update the research's progress. The aganda has been listed as following,</span></p>
+<ol>
+<li><span style="background-color: #fefefe;">Update and discuss about the result on my geometry instancing demo</span></li>
+<li><span style="background-color: #fefefe;">Direct3D 10 has "Geometry instancing" as one of the drawing routine! (highly optimized)</span></li>
+<li><span style="background-color: #fefefe;">Bezier curves as 3D model? "T<span style="background-color: #ffffff;">essellated Geometry instancing" is the technique I found that can be used to represent the 3D model with dynamic LOD.</span></span></li>
+<li>How we gonna measure CPU and GPU performance? VTune and PerfSDK</li>
+<li>I think I have a better understanding of Scene Graphs, targeting QuadTree, Loose OcTree</li>
+<li>Tasks management, the new design for MultiCore-based Game loop?</li>
+<li>Integrating "DevIL", the image manipulator library. Trying to avoid the unexpected performance hit, the library will be used only on the debugging purpose.</li>
+</ol>
+<p>I'm going to talk to Ruth about all above issues as well. There's an interesting result from my geometry instancing demo, where I cannot seem any performance gain on the GPU side.</p>
+<p>How's this happened? So far, it seem like the Geometry instancing techniques could help you move the bottleneck from one place to another. Acoording to this, sometimes it's hard to determine by just looking at the screen. This is the reason why the performance graph become more important!<br />Here, my work again has been adding up! I think I need to learn how to use VTune, and PerfSDK. Briefly, those are the performance measureing tools for CPU and GPU.</p>
+<p>Ways to go!!</p> </div>
+</div>
+<div class="cleared"></div>
+<div class="art-postmetadatafooter">
+<div class="art-postfootericons art-metadata-icons">
+<img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/postcategoryicon.png" alt="postcategoryicon" width="18" height="18" />Category: <span class="art-post-metadata-category-name"><a href="http://my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog">HonoursProjectBlog</a></span>
+</div>
+</div>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+</div>
+</body>
+
+<!-- Mirrored from my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog/48-week-11-research-update?tmpl=component&print=1&layout=default&page= by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 23:19:58 GMT -->
+</html>

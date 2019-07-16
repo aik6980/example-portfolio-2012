@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+
+<!-- Mirrored from my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog/59-10th-feb-weekly-update-dx10-pitfall-and-miyamoto-musashi?tmpl=component&print=1&layout=default&page= by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 23:19:58 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+   <base  />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="game, rendering, graphics, gpu" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="description" content="Game, Graphic programming, Guitar and Cooking " />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>10th Feb: Weekly update, DX10 Pitfall and Miyamoto Musashi </title>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/core.js" type="text/javascript"></script>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/caption.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+  </script>
+
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/system/css/system.css" type="text/css" />
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/system/css/general.css" type="text/css" />
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/tpl_content01/css/print.css" type="text/css" />
+</head>
+<body class="contentpane">
+ 
+<div id="system-message-container">
+</div>
+ 
+
+<div class="item-page"><div class="art-post">
+    <div class="art-post-body">
+<div class="art-post-inner">
+<h2 class="art-postheader"> <a href="http://my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog/59-10th-feb-weekly-update-dx10-pitfall-and-miyamoto-musashi" class="PostHeader">10th Feb: Weekly update, DX10 Pitfall and Miyamoto Musashi </a></h2>
+<div class="art-postheadericons art-metadata-icons">
+<img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/postdateicon.png" alt="postdateicon" width="16" height="16" />Last Updated on Monday, 02 January 2012 09:51 | <a href="#" onclick="window.print();return false;"><img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/system/printButton.png" alt="Print"  /></a> | Hits: 723
+</div>
+<div class="art-postcontent">
+<div class="art-article"><h4>Weekly update</h4>
+<p>Quadtree Implementation have been happily done on XNA. The demo has some interesting functions where I can render the "Bounding Frustum" and perform a collision test with the render grid. The result shows the Quadtree visibility culling efficiency, and why we should use it to speed up the scene query process.</p>
+<p>Moreover, the implementation also shows the Quadtree module portability. Together with some Events notification (Delegates in .NET), it could not be dead difficult to integrate it into my DX10 Rendering system</p>
+<ul>
+<li>Bounding Frustum class need to be created manually on C++</li>
+<li>Quadtree is a 2-dimension spatial query. Consider using 2D AABB could help us speed up the collision testing</li>
+</ul>
+<address>Note:</address>
+<p>the most optimal tree structure, for searching and querying, is a balanced tree. This is why self-balancing tree can help speeding up the search and sort process.</p>
+<h4>Direct3D10 Pitfall</h4>
+<p>I like DX10 very much personally, because its new rendering pipeline functions and structures have been well-named and organized. However, it's hard as well not to say it still looks like it's an incompleted API, especially when compares to the ready-to-work product like XNA :(</p>
+<p>I have found some of the faulty functions while I was working on my project for a last few weeks. I've already tried asking to MSDN forum which I hope i can have some good answers very soon</p>
+<ul>
+<li>ID3DX10Mesh::CloneMesh(), this function is supposed to inherit its functionality from DX9 CloneMesh(), which we can use it for changing the mesh's Vertex Description. However, it's not working properly and also doesn't give out any error :(<br /><a href="http://forums.xna.com/forums/t/25016.aspx" target="_blank"><a href="http://forums.xna.com/forums/t/25016.aspx">http://forums.xna.com/forums/t/25016.aspx</a></a></li>
+<li>ID3DEffectVariable::SetRawValue(), this function is supposed to give us the quickest way to transfer the chunk of memory into shader without type-checking. This doesn't work either<br /><a href="http://forums.xna.com/forums/t/25019.aspx" target="_blank"><a href="http://forums.xna.com/forums/t/25019.aspx">http://forums.xna.com/forums/t/25019.aspx</a></a></li>
+</ul>
+<h4>Vagabond (Miyamoto Musashi's story)</h4>
+<p>Last few days, I have a chance to come across one of the very best mangas called "Vagabond". The story is about the life of one greatest japanese swordman and philosopher named "Miyamoto Musashi". The great story together with marvelous artwork make the serie very valuable to read. Not only that, this "Seinen" manga includes so many good philosophies and the thought of life.</p>
+<p>It's the one masterpiece that I rated as one of the best work I've ever read in my life</p>
+<p style="text-align: left;"> </p>
+<div style="text-align: center;"></div>
+<div style="text-align: center;"><address>"If you're focused on one leaf, you will never see the tree.<br />Focusing only one tree, and you never know the whole forest"</address></div>
+<p> </p>
+<p>As simply say, solving the problems is needed to look at it as a whole.</p> </div>
+</div>
+<div class="cleared"></div>
+<div class="art-postmetadatafooter">
+<div class="art-postfootericons art-metadata-icons">
+<img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/postcategoryicon.png" alt="postcategoryicon" width="18" height="18" />Category: <span class="art-post-metadata-category-name"><a href="http://my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog">HonoursProjectBlog</a></span>
+</div>
+</div>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+</div>
+</body>
+
+<!-- Mirrored from my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog/59-10th-feb-weekly-update-dx10-pitfall-and-miyamoto-musashi?tmpl=component&print=1&layout=default&page= by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 23:19:58 GMT -->
+</html>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
+	<title type="text">Personal Works</title>
+	<subtitle type="text">Game, Graphic programming, Guitar and Cooking </subtitle>
+	<link rel="alternate" type="text/html" href="http://my-site:5000"/>
+	<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works</id>
+	<updated>2019-07-15T22:43:20+00:00</updated>
+	<generator uri="http://joomla.org" version="2.5">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="http://my-site:5000/cms/joomla17/index.php/projects/personal-works?format=feed&amp;type=atom"/>
+	<entry>
+		<title>FXComposer ScrapBook (2011)</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/projects/personal-works/110-fxcomposer-scrapbook-2011"/>
+		<published>2012-07-08T22:55:59+00:00</published>
+		<updated>2012-07-08T22:55:59+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/110-fxcomposer-scrapbook-2011</id>
+		<author>
+			<name>Super User</name>
+			<email>aik6980@aikdev.co.uk</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/aik_fxcbook/fxc_simplebokeh.jpg&quot; style=&quot;width: 500px; height: 455px; &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	I usually use FXComposer to learn and prototype shaders.&amp;nbsp;FX Composer enables you to create advanced shading effects using .fx files, which are text descriptions of the Direct3D graphics API state and which can be loaded by any Direct3D application using the D3DX effects framework.&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/aik_fxcbook/fxc_simplebokeh.jpg&quot; style=&quot;width: 500px; height: 455px; &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	I usually use FXComposer to learn and prototype shaders.&amp;nbsp;FX Composer enables you to create advanced shading effects using .fx files, which are text descriptions of the Direct3D graphics API state and which can be loaded by any Direct3D application using the D3DX effects framework.&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="Personal Works" />
+	</entry>
+	<entry>
+		<title>Equilibrium (2010)</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/projects/personal-works/101-equilibrium-2010"/>
+		<published>2012-01-13T19:33:04+00:00</published>
+		<updated>2012-01-13T19:33:04+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/101-equilibrium-2010</id>
+		<author>
+			<name>Super User</name>
+			<email>aik6980@aikdev.co.uk</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/old_eq/old_eq001.png&quot; style=&quot;width: 500px; height: 300px; &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	Equilibrium is an RTS game building for a mobile platform. I have worked on this small project on my spare time as a graphic programmer. In 2010, this could be one of the best thing I have ever spent my weekend time on.&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/old_eq/old_eq001.png&quot; style=&quot;width: 500px; height: 300px; &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	Equilibrium is an RTS game building for a mobile platform. I have worked on this small project on my spare time as a graphic programmer. In 2010, this could be one of the best thing I have ever spent my weekend time on.&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="Personal Works" />
+	</entry>
+	<entry>
+		<title>Character Instancing (2009)</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/projects/personal-works/61-character-instancing-2009"/>
+		<published>2009-03-20T00:00:00+00:00</published>
+		<updated>2009-03-20T00:00:00+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/61-character-instancing-2009</id>
+		<author>
+			<name>Super User</name>
+			<email>aik6980@aikdev.co.uk</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/cgt42_final/cgt42_final002.jpg&quot; style=&quot;width: 500px; height: 375px; &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	&lt;strong&gt;&lt;img alt=&quot;yes&quot; src=&quot;<a href="http://aikdev.co.uk/cms/joomla17/plugins/editors/jckeditor/plugins/smiley/images/thumbs_up.gif">http://aikdev.co.uk/cms/joomla17/plugins/editors/jckeditor/plugins/smiley/images/thumbs_up.gif</a>&quot; style=&quot;width: 20px; height: 20px; &quot; title=&quot;yes&quot; /&gt;Editor pick!: Project of the Year&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+	The research has been carried on during my Honours year. The research addresses an interesting problem in modern game applications regarding to real-time rendering, where a game scene is detailed with large number of various kinds of objects.&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/cgt42_final/cgt42_final002.jpg&quot; style=&quot;width: 500px; height: 375px; &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	&lt;strong&gt;&lt;img alt=&quot;yes&quot; src=&quot;<a href="http://aikdev.co.uk/cms/joomla17/plugins/editors/jckeditor/plugins/smiley/images/thumbs_up.gif">http://aikdev.co.uk/cms/joomla17/plugins/editors/jckeditor/plugins/smiley/images/thumbs_up.gif</a>&quot; style=&quot;width: 20px; height: 20px; &quot; title=&quot;yes&quot; /&gt;Editor pick!: Project of the Year&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+	The research has been carried on during my Honours year. The research addresses an interesting problem in modern game applications regarding to real-time rendering, where a game scene is detailed with large number of various kinds of objects.&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="Personal Works" />
+	</entry>
+	<entry>
+		<title>Bezier Curves Animation Control(2008)</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/projects/personal-works/13-bezier-curves-animation-control2008"/>
+		<published>2008-08-01T21:00:52+00:00</published>
+		<updated>2008-08-01T21:00:52+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/13-bezier-curves-animation-control2008</id>
+		<author>
+			<name>Super User</name>
+			<email>aik6980@aikdev.co.uk</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/cgt41_bezier/cgt41_bezier002.jpg&quot; style=&quot;width: 640px; height: 480px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	The demo shows the Piecewise-Bezier Curve animation control system. Users can adjust the curve&amp;#39;s shape by moving control points position. Objects can be placed on curve and move along under the gravity at the time users adjusting the curve. Not only that, using the hotkeys, users can switch the camera into the Roller Coaster view mode where we can watched the animation as if we are in the front seat.&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/cgt41_bezier/cgt41_bezier002.jpg&quot; style=&quot;width: 640px; height: 480px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	The demo shows the Piecewise-Bezier Curve animation control system. Users can adjust the curve&amp;#39;s shape by moving control points position. Objects can be placed on curve and move along under the gravity at the time users adjusting the curve. Not only that, using the hotkeys, users can switch the camera into the Roller Coaster view mode where we can watched the animation as if we are in the front seat.&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="Personal Works" />
+	</entry>
+	<entry>
+		<title>Project CEPA (2008)</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/projects/personal-works/29-y3s2-group-project"/>
+		<published>2008-08-01T21:00:52+00:00</published>
+		<updated>2008-08-01T21:00:52+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/29-y3s2-group-project</id>
+		<author>
+			<name>Super User</name>
+			<email>aik6980@aikdev.co.uk</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/cgt32_ogre/cgt32_ogre017.jpg&quot; style=&quot;width: 515px; height: 397px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	&lt;strong&gt;&lt;img alt=&quot;Money mouth&quot; border=&quot;0&quot; src=&quot;media/editors/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-money-mouth.gif&quot; style=&quot;vertical-align: middle; margin: 0px;&quot; title=&quot;Money mouth&quot; /&gt;Editor pick! : Project of the Year Award &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+	CEPA Project is a full game project from a team of 5 people which I have taken part as a team leader. The project is produced as parts of my third year university&amp;rsquo;s Group project.&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/cgt32_ogre/cgt32_ogre017.jpg&quot; style=&quot;width: 515px; height: 397px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	&lt;strong&gt;&lt;img alt=&quot;Money mouth&quot; border=&quot;0&quot; src=&quot;media/editors/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-money-mouth.gif&quot; style=&quot;vertical-align: middle; margin: 0px;&quot; title=&quot;Money mouth&quot; /&gt;Editor pick! : Project of the Year Award &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+	CEPA Project is a full game project from a team of 5 people which I have taken part as a team leader. The project is produced as parts of my third year university&amp;rsquo;s Group project.&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="Personal Works" />
+	</entry>
+	<entry>
+		<title>Procedural Generation (2008)</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/projects/personal-works/32-procedural-generation-2008"/>
+		<published>2008-08-01T21:00:52+00:00</published>
+		<updated>2008-08-01T21:00:52+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/32-procedural-generation-2008</id>
+		<author>
+			<name>Super User</name>
+			<email>aik6980@aikdev.co.uk</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/cgt32_terrain/cgt32_terrain007.jpg&quot; style=&quot;width: 640px; height: 480px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	The project shows terrain generation techniques, and how to implement them together to form a terrain editor tool for game artists. The demo shows many algorithms and techniques that we could use in combinations in order to create a believable terrain in game application. Not only that, it also presented the various methods for creating some procedural game objects, such as Trees, Clouds and Water.&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/cgt32_terrain/cgt32_terrain007.jpg&quot; style=&quot;width: 640px; height: 480px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	The project shows terrain generation techniques, and how to implement them together to form a terrain editor tool for game artists. The demo shows many algorithms and techniques that we could use in combinations in order to create a believable terrain in game application. Not only that, it also presented the various methods for creating some procedural game objects, such as Trees, Clouds and Water.&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="Personal Works" />
+	</entry>
+	<entry>
+		<title>DirectX HLSL (2007)</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/projects/personal-works/28-directx-hlsl-2007"/>
+		<published>2008-08-01T21:00:52+00:00</published>
+		<updated>2008-08-01T21:00:52+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/28-directx-hlsl-2007</id>
+		<author>
+			<name>Super User</name>
+			<email>aik6980@aikdev.co.uk</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/cgt31_dxhlsl/cgt31_dxhlsl004.jpg&quot; style=&quot;width: 646px; height: 512px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	The program is developed using DirectX9 API. The main idea is to experiment and integrate the HLSL Shaders into my framework. The fixed-pipeline function also has been replaced with the equivalent shaders.&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/cgt31_dxhlsl/cgt31_dxhlsl004.jpg&quot; style=&quot;width: 646px; height: 512px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	The program is developed using DirectX9 API. The main idea is to experiment and integrate the HLSL Shaders into my framework. The fixed-pipeline function also has been replaced with the equivalent shaders.&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="Personal Works" />
+	</entry>
+	<entry>
+		<title>Ogre3D Scene Manipulator (2007)</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/projects/personal-works/64-ogre3d-scene-manipulator-2007"/>
+		<published>2008-08-01T21:00:52+00:00</published>
+		<updated>2008-08-01T21:00:52+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/64-ogre3d-scene-manipulator-2007</id>
+		<author>
+			<name>Super User</name>
+			<email>aik6980@aikdev.co.uk</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/cgt31_tools/cgt31_tool001.jpg&quot; style=&quot;height: 375px; width: 500px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	The demo is developed in 2007 as parted of my course works for &amp;quot;Game Tools Programming&amp;quot; module, at Abertay University.&lt;br /&gt;
+	The idea is to show how to create a script parser that can be used to help users quickly manipulate and test the game scene in real-time. Users are allowed to attached 3DModel objects and control their animations, point light objects and etc.&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/cgt31_tools/cgt31_tool001.jpg&quot; style=&quot;height: 375px; width: 500px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	The demo is developed in 2007 as parted of my course works for &amp;quot;Game Tools Programming&amp;quot; module, at Abertay University.&lt;br /&gt;
+	The idea is to show how to create a script parser that can be used to help users quickly manipulate and test the game scene in real-time. Users are allowed to attached 3DModel objects and control their animations, point light objects and etc.&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="Personal Works" />
+	</entry>
+	<entry>
+		<title>Y3S1 PS2 VectorUnits</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/projects/personal-works/27-y3s1-ps2-vectorunits"/>
+		<published>2008-08-01T21:00:52+00:00</published>
+		<updated>2008-08-01T21:00:52+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/27-y3s1-ps2-vectorunits</id>
+		<author>
+			<name>Super User</name>
+			<email>aik6980@aikdev.co.uk</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/cgt31_ps2vu/cgt31_ps2vu001.jpg&quot; style=&quot;width: 640px; height: 512px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	The program has been developed in 2007, in order to explore and experiment the real power of PS2 3D pipeline. Using the Vector Unit 1/2 to perform the vertex operations.&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/cgt31_ps2vu/cgt31_ps2vu001.jpg&quot; style=&quot;width: 640px; height: 512px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	The program has been developed in 2007, in order to explore and experiment the real power of PS2 3D pipeline. Using the Vector Unit 1/2 to perform the vertex operations.&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="Personal Works" />
+	</entry>
+	<entry>
+		<title>Y2S2 PS2 EECore</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/projects/personal-works/6-y2s2-ps2-eecore"/>
+		<published>2008-07-17T21:00:52+00:00</published>
+		<updated>2008-07-17T21:00:52+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/6-y2s2-ps2-eecore</id>
+		<author>
+			<name>Super User</name>
+			<email>aik6980@aikdev.co.uk</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;strong&gt;&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/cgt22_ps2doom/cgt22_ps2doom006.jpg&quot; style=&quot;border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; width: 500px; height: 400px; &quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+	&lt;strong&gt;SCEE Award Winner 2006&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+	Developed on the Playstation 2, The project is created base on the famous DOOM game. Even idea is the same, but the game need totally different implementation to make it happens on PS2 Console.&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;strong&gt;&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/cgt22_ps2doom/cgt22_ps2doom006.jpg&quot; style=&quot;border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; width: 500px; height: 400px; &quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+	&lt;strong&gt;SCEE Award Winner 2006&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+	Developed on the Playstation 2, The project is created base on the famous DOOM game. Even idea is the same, but the game need totally different implementation to make it happens on PS2 Console.&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="Personal Works" />
+	</entry>
+	<entry>
+		<title>Y2S2 OpenGL</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/projects/personal-works/15-y2s2-opengl"/>
+		<published>2008-07-18T08:17:18+00:00</published>
+		<updated>2008-07-18T08:17:18+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/15-y2s2-opengl</id>
+		<author>
+			<name>Super User</name>
+			<email>aik6980@aikdev.co.uk</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/cgt22_ogl/cgt22_ogl002.jpg&quot; style=&quot;border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; width: 500px; height: 392px; &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	Developed in 2006, the application is part of my 3D programming practice using OpenGL API. Everything is rendered via the fixed-pipeline functionality.&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/cgt22_ogl/cgt22_ogl002.jpg&quot; style=&quot;border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; width: 500px; height: 392px; &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	Developed in 2006, the application is part of my 3D programming practice using OpenGL API. Everything is rendered via the fixed-pipeline functionality.&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="Personal Works" />
+	</entry>
+	<entry>
+		<title>Y2S1 Pathfinding</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/projects/personal-works/12-y2s1-pathfinding"/>
+		<published>2008-07-16T23:22:20+00:00</published>
+		<updated>2008-07-16T23:22:20+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/12-y2s1-pathfinding</id>
+		<author>
+			<name>Super User</name>
+			<email>aik6980@aikdev.co.uk</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/cgt21_astar/cgt21_astar004.jpg&quot; style=&quot;width: 500px; height: 396px; &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	PathFinding Algorithm is developed in 2006. These small applications are my work from the Pathfinding and STL Algorithm module. I&amp;#39;m quite amazed and impressed in the mathematical power which is used to produce the Pathfinding algorithm.&lt;br /&gt;
+	The demo is created in order to demonstrate the algorithms as visualization.&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;../../resources/images_project/cgt21_astar/cgt21_astar004.jpg&quot; style=&quot;width: 500px; height: 396px; &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	PathFinding Algorithm is developed in 2006. These small applications are my work from the Pathfinding and STL Algorithm module. I&amp;#39;m quite amazed and impressed in the mathematical power which is used to produce the Pathfinding algorithm.&lt;br /&gt;
+	The demo is created in order to demonstrate the algorithms as visualization.&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="Personal Works" />
+	</entry>
+</feed>

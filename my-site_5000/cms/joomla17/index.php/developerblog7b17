@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
+	<title type="text">DeveloperBlog</title>
+	<subtitle type="text">Game, Graphic programming, Guitar and Cooking </subtitle>
+	<link rel="alternate" type="text/html" href="http://my-site:5000"/>
+	<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog</id>
+	<updated>2019-07-15T22:43:33+00:00</updated>
+	<generator uri="http://joomla.org" version="2.5">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="http://my-site:5000/cms/joomla17/index.php/developerblog?format=feed&amp;type=atom"/>
+	<entry>
+		<title>A very funny spoof of Driver:SF </title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/developerblog/109-a-very-funny-spoof-of-driversf"/>
+		<published>2012-06-29T12:09:37+00:00</published>
+		<updated>2012-06-29T12:09:37+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/109-a-very-funny-spoof-of-driversf</id>
+		<author>
+			<name>Super User</name>
+			<email>aik6980@aikdev.co.uk</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;<a href="http://www.edge-online.com/files/images/driver_san_fran_shift.jpg">http://www.edge-online.com/files/images/driver_san_fran_shift.jpg</a>&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	From GameTrailer, share this from my friend&amp;#39;s FB today&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;<a href="http://www.edge-online.com/files/images/driver_san_fran_shift.jpg">http://www.edge-online.com/files/images/driver_san_fran_shift.jpg</a>&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	From GameTrailer, share this from my friend&amp;#39;s FB today&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="DeveloperBlog" />
+	</entry>
+	<entry>
+		<title>Dancing for Just Dance due to the World Dance Day</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/developerblog/108-dancing-for-just-dance-due-to-the-world-dance-day"/>
+		<published>2012-06-28T17:58:11+00:00</published>
+		<updated>2012-06-28T17:58:11+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/108-dancing-for-just-dance-due-to-the-world-dance-day</id>
+		<author>
+			<name>Super User</name>
+			<email>aik6980@aikdev.co.uk</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	Regarding to &lt;a href=&quot;<a href="http://en.wikipedia.org/wiki/International_Dance_Day">http://en.wikipedia.org/wiki/International_Dance_Day</a>&quot;&gt;the World Dance Day (29th April)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+	Since we, Reflections, are the developers behind JustDance, a popular dancing game and we think we should do something special for this particular day. So we dance ...&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	Regarding to &lt;a href=&quot;<a href="http://en.wikipedia.org/wiki/International_Dance_Day">http://en.wikipedia.org/wiki/International_Dance_Day</a>&quot;&gt;the World Dance Day (29th April)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+	Since we, Reflections, are the developers behind JustDance, a popular dancing game and we think we should do something special for this particular day. So we dance ...&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="DeveloperBlog" />
+	</entry>
+	<entry>
+		<title>C++ Faqs, Notes and Snippets</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/developerblog/17-c-faqs-notes-and-snippets"/>
+		<published>2010-12-21T09:24:10+00:00</published>
+		<updated>2010-12-21T09:24:10+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/17-c-faqs-notes-and-snippets</id>
+		<author>
+			<name>Super User</name>
+			<email>aik6980@aikdev.co.uk</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	The collection of C++ questions, notes and snippets&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	The collection of C++ questions, notes and snippets&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="DeveloperBlog" />
+	</entry>
+	<entry>
+		<title>AikDev Evolution</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/developerblog/103-aikdev-evolution"/>
+		<published>2012-01-13T22:58:06+00:00</published>
+		<updated>2012-01-13T22:58:06+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/103-aikdev-evolution</id>
+		<author>
+			<name>Super User</name>
+			<email>aik6980@aikdev.co.uk</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;<a href="http://5magazine.files.wordpress.com/2011/01/evolution5.jpg">http://5magazine.files.wordpress.com/2011/01/evolution5.jpg</a>&quot; style=&quot;width: 426px; height: 318px; &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	Here I&amp;#39;m recording the history of how I have developed my website&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;<a href="http://5magazine.files.wordpress.com/2011/01/evolution5.jpg">http://5magazine.files.wordpress.com/2011/01/evolution5.jpg</a>&quot; style=&quot;width: 426px; height: 318px; &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	Here I&amp;#39;m recording the history of how I have developed my website&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="DeveloperBlog" />
+	</entry>
+	<entry>
+		<title>Pitfall, designing to the limit </title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/developerblog/106-pitfall-designing-to-the-limit"/>
+		<published>2012-01-27T17:24:18+00:00</published>
+		<updated>2012-01-27T17:24:18+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/106-pitfall-designing-to-the-limit</id>
+		<author>
+			<name>Super User</name>
+			<email>aik6980@aikdev.co.uk</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;<a href="http://img528.imageshack.us/img528/9383/pitfall.jpg">http://img528.imageshack.us/img528/9383/pitfall.jpg</a>&quot; style=&quot;width: 500px; height: 375px; &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	Famed game designer David Crane talks about his design challenges creating Pitfall for the Atari 2600.&amp;nbsp;He practically has put the console to its limit nicely with his brilliant game idea,&amp;nbsp;and this surely had brought one of the best gaming moments to many people, including me.&lt;/p&gt;
+&lt;div&gt;
+	&lt;div&gt;
+		&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;<a href="http://img528.imageshack.us/img528/9383/pitfall.jpg">http://img528.imageshack.us/img528/9383/pitfall.jpg</a>&quot; style=&quot;width: 500px; height: 375px; &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	Famed game designer David Crane talks about his design challenges creating Pitfall for the Atari 2600.&amp;nbsp;He practically has put the console to its limit nicely with his brilliant game idea,&amp;nbsp;and this surely had brought one of the best gaming moments to many people, including me.&lt;/p&gt;
+&lt;div&gt;
+	&lt;div&gt;
+		&lt;/div&gt;</content>
+		<category term="DeveloperBlog" />
+	</entry>
+	<entry>
+		<title>SN-DBS for PS3, My experience</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/developerblog/100-sn-dbs-for-ps3-my-experience"/>
+		<published>2012-01-12T19:24:45+00:00</published>
+		<updated>2012-01-12T19:24:45+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/100-sn-dbs-for-ps3-my-experience</id>
+		<author>
+			<name>Super User</name>
+			<email>aik6980@aikdev.co.uk</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;<a href="http://www.snsys.com/res/images/diagrams/Compile_Times_By_Agents_Smaller.png">http://www.snsys.com/res/images/diagrams/Compile_Times_By_Agents_Smaller.png</a>&quot; style=&quot;width: 312px; height: 338px; &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+	SN-DBS slashes compile times by distributing your source code builds between cooperating PCs on your local area network. This is my experience of using SNDBS for PS3, based on version 2.2&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;
+	&lt;img alt=&quot;&quot; src=&quot;<a href="http://www.snsys.com/res/images/diagrams/Compile_Times_By_Agents_Smaller.png">http://www.snsys.com/res/images/diagrams/Compile_Times_By_Agents_Smaller.png</a>&quot; style=&quot;width: 312px; height: 338px; &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+	SN-DBS slashes compile times by distributing your source code builds between cooperating PCs on your local area network. This is my experience of using SNDBS for PS3, based on version 2.2&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="DeveloperBlog" />
+	</entry>
+	<entry>
+		<title>Boost C++ Libraries, for better coding</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/developerblog/50-c-libraries-for-better-coding"/>
+		<published>2008-12-31T01:38:30+00:00</published>
+		<updated>2008-12-31T01:38:30+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/50-c-libraries-for-better-coding</id>
+		<author>
+			<name>Super User</name>
+			<email>aik6980@aikdev.co.uk</email>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;h4&gt;C++ Boost Library&lt;/h4&gt;
+&lt;p&gt;The current version of standard C++ was finalized inn 1998. The language offers robust support for traditional procedural programming as well as object-oriented and generic programming.&lt;br /&gt;The integration of the standard template library (STL) in the mid-1990s represent as much a paradigm shift as did Bjarne Stroustrup's adding classes to C in the early 80s. Now that the majority of C++ programmers are proficient with concepts of STL, it's once again time to raise the bar&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;h4&gt;C++ Boost Library&lt;/h4&gt;
+&lt;p&gt;The current version of standard C++ was finalized inn 1998. The language offers robust support for traditional procedural programming as well as object-oriented and generic programming.&lt;br /&gt;The integration of the standard template library (STL) in the mid-1990s represent as much a paradigm shift as did Bjarne Stroustrup's adding classes to C in the early 80s. Now that the majority of C++ programmers are proficient with concepts of STL, it's once again time to raise the bar&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="DeveloperBlog" />
+	</entry>
+	<entry>
+		<title>David Potter Memorial Prize</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/developerblog/14-david-potter-memorial-prize"/>
+		<published>2006-12-25T00:00:00+00:00</published>
+		<updated>2006-12-25T00:00:00+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/14-david-potter-memorial-prize</id>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;hr /&gt;
+&lt;h1&gt;December 25, 2006 : David Potter Memorial Prize&lt;/h1&gt;
+&lt;h4&gt;My first prize after a first year in Abertay university.&lt;/h4&gt;
+&lt;a href=&quot;../../resources/photo/070622_davidpotter/dscn0077.jpg&quot; target=&quot;_blank&quot;&gt; &lt;img src=&quot;../../resources/photo/070622_davidpotter/thumb/dscn0077_th.jpg&quot; /&gt;&lt;/a&gt; 
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;hr /&gt;
+&lt;h1&gt;December 25, 2006 : David Potter Memorial Prize&lt;/h1&gt;
+&lt;h4&gt;My first prize after a first year in Abertay university.&lt;/h4&gt;
+&lt;a href=&quot;../../resources/photo/070622_davidpotter/dscn0077.jpg&quot; target=&quot;_blank&quot;&gt; &lt;img src=&quot;../../resources/photo/070622_davidpotter/thumb/dscn0077_th.jpg&quot; /&gt;&lt;/a&gt; 
+&lt;/div&gt;</content>
+		<category term="DeveloperBlog" />
+	</entry>
+	<entry>
+		<title>May 4, 2007 : 8Bits and Beyond</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/developerblog/8-may-4-2007-8bits-and-beyond"/>
+		<published>2007-05-04T00:00:00+00:00</published>
+		<updated>2007-05-04T00:00:00+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/8-may-4-2007-8bits-and-beyond</id>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;hr /&gt;
+&lt;h1&gt;May 4, 2007 : 8Bits and Beyond&lt;/h1&gt;
+&lt;h4&gt;Computer Games Showcase, Dundee&lt;/h4&gt;
+&lt;a href=&quot;../../resources/photo/070604_8bit_beyond/dscn0035.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;../../resources/photo/070604_8bit_beyond/thumb/dscn0035_th.jpg&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;../../resources/photo/070604_8bit_beyond/dscn0054.jpg&quot; target=&quot;_blank&quot;&gt; &lt;img src=&quot;../../resources/photo/070604_8bit_beyond/thumb/dscn0054_th.jpg&quot; /&gt;&lt;/a&gt; 
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;hr /&gt;
+&lt;h1&gt;May 4, 2007 : 8Bits and Beyond&lt;/h1&gt;
+&lt;h4&gt;Computer Games Showcase, Dundee&lt;/h4&gt;
+&lt;a href=&quot;../../resources/photo/070604_8bit_beyond/dscn0035.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;../../resources/photo/070604_8bit_beyond/thumb/dscn0035_th.jpg&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;../../resources/photo/070604_8bit_beyond/dscn0054.jpg&quot; target=&quot;_blank&quot;&gt; &lt;img src=&quot;../../resources/photo/070604_8bit_beyond/thumb/dscn0054_th.jpg&quot; /&gt;&lt;/a&gt; 
+&lt;/div&gt;</content>
+		<category term="DeveloperBlog" />
+	</entry>
+	<entry>
+		<title>I'm a Sony Prize winner!!, also CV Section has been updated.</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/developerblog/18-im-a-sony-prize-winner-also-cv-section-has-been-updated"/>
+		<published>2008-07-19T10:45:02+00:00</published>
+		<updated>2008-07-19T10:45:02+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/18-im-a-sony-prize-winner-also-cv-section-has-been-updated</id>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;img src=&quot;../../resources/photo/070622_davidpotter/thumb/dscn0024_th.jpg&quot; /&gt; &lt;img src=&quot;../../resources/photo/070622_psp/thumb/dscn0072_th.jpg&quot; /&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Congratulations to myself! last month I've just got the biggest prize from sony for my PS2 game project this year. Accordingly, I've updated &lt;a href=&quot;index.php?option=com_content&amp;amp;view=article&amp;amp;id=3:cv&amp;amp;catid=3:cvcv&amp;amp;Itemid=5&quot;&gt;my CV section&lt;/a&gt; and also put some pictures of them with proudly presented.&lt;/p&gt;&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;img src=&quot;../../resources/photo/070622_davidpotter/thumb/dscn0024_th.jpg&quot; /&gt; &lt;img src=&quot;../../resources/photo/070622_psp/thumb/dscn0072_th.jpg&quot; /&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Congratulations to myself! last month I've just got the biggest prize from sony for my PS2 game project this year. Accordingly, I've updated &lt;a href=&quot;index.php?option=com_content&amp;amp;view=article&amp;amp;id=3:cv&amp;amp;catid=3:cvcv&amp;amp;Itemid=5&quot;&gt;my CV section&lt;/a&gt; and also put some pictures of them with proudly presented.&lt;/p&gt;&lt;/div&gt;</content>
+		<category term="DeveloperBlog" />
+	</entry>
+	<entry>
+		<title>Dare Schools Challenge 2007</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/developerblog/19-dare-schools-challenge-2007"/>
+		<published>2008-07-19T11:02:49+00:00</published>
+		<updated>2008-07-19T11:02:49+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/19-dare-schools-challenge-2007</id>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;img src=&quot;../../resources/photo/070622_dareschools/game/escape_poster_th.jpg&quot; /&gt; &lt;img src=&quot;../../resources/photo/070622_dareschools/thumb/dscn0061_th.jpg&quot; /&gt; &lt;img src=&quot;../../resources/photo/070622_dareschools/thumb/dscn0057_th.jpg&quot; /&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;First of all, I've finished adding &lt;a href=&quot;index.php?option=com_content&amp;amp;view=category&amp;amp;id=7:photo-gallery&amp;amp;layout=blog&amp;amp;Itemid=17&quot;&gt;the Photo Album section&lt;/a&gt; into the website. The photobook is my plan since I started building this website, in order to make the web content doesn't look very academic intense. Not only that, You might be able to know me better through the pictures.&lt;br /&gt;Secondly, I want to say something about my first job in UK. Even it just only two weeks long, honestly, It made myself exactly sure that I'm walking on the right path to be a game programmer.&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;img src=&quot;../../resources/photo/070622_dareschools/game/escape_poster_th.jpg&quot; /&gt; &lt;img src=&quot;../../resources/photo/070622_dareschools/thumb/dscn0061_th.jpg&quot; /&gt; &lt;img src=&quot;../../resources/photo/070622_dareschools/thumb/dscn0057_th.jpg&quot; /&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;First of all, I've finished adding &lt;a href=&quot;index.php?option=com_content&amp;amp;view=category&amp;amp;id=7:photo-gallery&amp;amp;layout=blog&amp;amp;Itemid=17&quot;&gt;the Photo Album section&lt;/a&gt; into the website. The photobook is my plan since I started building this website, in order to make the web content doesn't look very academic intense. Not only that, You might be able to know me better through the pictures.&lt;br /&gt;Secondly, I want to say something about my first job in UK. Even it just only two weeks long, honestly, It made myself exactly sure that I'm walking on the right path to be a game programmer.&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="DeveloperBlog" />
+	</entry>
+	<entry>
+		<title>Dare to be Digital, Protoplay 2007</title>
+		<link rel="alternate" type="text/html" href="http://my-site:5000/cms/joomla17/index.php/developerblog/20-dare-to-be-digital-protoplay-2007"/>
+		<published>2008-07-19T11:35:41+00:00</published>
+		<updated>2008-07-19T11:35:41+00:00</updated>
+		<id><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/20-dare-to-be-digital-protoplay-2007</id>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;&lt;img src=&quot;../../resources/photo/070816_edinburghdare/thumb/scratch01_th.jpg&quot; /&gt; &lt;img src=&quot;../../resources/photo/070816_edinburghdare/thumb/scratch06_th.jpg&quot; /&gt; &lt;img src=&quot;../../resources/photo/070816_edinburghdare/thumb/earth14_th.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Updated &lt;a href=&quot;index.php?option=com_content&amp;amp;view=article&amp;amp;id=3:cv&amp;amp;catid=3:cvcv&amp;amp;Itemid=5&quot;&gt;CV section&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;Updated &lt;a href=&quot;index.php?option=com_content&amp;amp;view=category&amp;amp;id=7:photo-gallery&amp;amp;layout=blog&amp;amp;Itemid=17&quot;&gt;Photo album&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;It has been a month, which I was busy working with my GBA tutor on the next term tutorials, that I believe it gonna be my next job. After his approval,the tutorial section in this website might be able to start as well. ;)&lt;br /&gt;Besides, I've been working for &lt;a target=&quot;_blank&quot; href=&quot;<a href="http://www.daretobedigital.com/">http://www.daretobedigital.com/</a>&quot;&gt;Dare to be Digital&lt;/a&gt; last month in Edinburgh. My responsibility is to show and instruct our event's guests to try some basic game programming using &lt;a target=&quot;_blank&quot; href=&quot;<a href="http://scratch.mit.edu/">http://scratch.mit.edu/</a>&quot;&gt;SCRATCH software&lt;/a&gt;. Basically, it's almost the same job I did before with Henry so I can catch a grip very quickly.&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;&lt;img src=&quot;../../resources/photo/070816_edinburghdare/thumb/scratch01_th.jpg&quot; /&gt; &lt;img src=&quot;../../resources/photo/070816_edinburghdare/thumb/scratch06_th.jpg&quot; /&gt; &lt;img src=&quot;../../resources/photo/070816_edinburghdare/thumb/earth14_th.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Updated &lt;a href=&quot;index.php?option=com_content&amp;amp;view=article&amp;amp;id=3:cv&amp;amp;catid=3:cvcv&amp;amp;Itemid=5&quot;&gt;CV section&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;Updated &lt;a href=&quot;index.php?option=com_content&amp;amp;view=category&amp;amp;id=7:photo-gallery&amp;amp;layout=blog&amp;amp;Itemid=17&quot;&gt;Photo album&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;It has been a month, which I was busy working with my GBA tutor on the next term tutorials, that I believe it gonna be my next job. After his approval,the tutorial section in this website might be able to start as well. ;)&lt;br /&gt;Besides, I've been working for &lt;a target=&quot;_blank&quot; href=&quot;<a href="http://www.daretobedigital.com/">http://www.daretobedigital.com/</a>&quot;&gt;Dare to be Digital&lt;/a&gt; last month in Edinburgh. My responsibility is to show and instruct our event's guests to try some basic game programming using &lt;a target=&quot;_blank&quot; href=&quot;<a href="http://scratch.mit.edu/">http://scratch.mit.edu/</a>&quot;&gt;SCRATCH software&lt;/a&gt;. Basically, it's almost the same job I did before with Henry so I can catch a grip very quickly.&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="DeveloperBlog" />
+	</entry>
+</feed>

@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+
+<!-- Mirrored from my-site:5000/cms/joomla17/index.php/developerblog/25-programming-qanda?tmpl=component&print=1&layout=default&page= by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 23:19:56 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+   <base  />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="game, rendering, graphics, gpu" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="description" content="Game, Graphic programming, Guitar and Cooking " />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Programming QAndA</title>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/core.js" type="text/javascript"></script>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/caption.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+  </script>
+
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/system/css/system.css" type="text/css" />
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/system/css/general.css" type="text/css" />
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/tpl_content01/css/print.css" type="text/css" />
+</head>
+<body class="contentpane">
+ 
+<div id="system-message-container">
+</div>
+ 
+
+<div class="item-page"><div class="art-post">
+    <div class="art-post-body">
+<div class="art-post-inner">
+<h2 class="art-postheader"> <a href="http://my-site:5000/cms/joomla17/index.php/developerblog/25-programming-qanda" class="PostHeader">Programming QAndA</a></h2>
+<div class="art-postheadericons art-metadata-icons">
+<img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/postdateicon.png" alt="postdateicon" width="16" height="16" />Last Updated on Tuesday, 27 December 2011 20:50 | <a href="#" onclick="window.print();return false;"><img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/system/printButton.png" alt="Print"  /></a> | Hits: 801
+</div>
+<div class="art-postcontent">
+<div class="art-article"><img src="http://www1.xup.in/tn/2009_07/18175553.jpeg" />
+
+<p>
+  Coding questions, tips and techniques
+</p>
+
+ 
+
+<p>
+  <h5>C++ string VS STL string?</h5>
+  In term of pure performance, C-string surely wins over STL because of it is just a pure array with no hidden implementation. However, using C-string is risking yourself against many problems regarding to an unprotected array, such as the buffer overflow and etc. Where STL string provided a number of safety quards, it still has the same problem as other STL container, where the underline implementation is based on using the dynamic allocation.<br/>
+  Uncontrollable dynamic allocation is very bad for the console development. First, lots of small dynamic allocation could cause the hidden evil, "memory fragmentation" which will slow your game down gradually through time as you call "new" operator until your game is completely crashed<br/>
+  STL string also have to be used with the great awareness, it might provide a number of convenience functions that help you manipulate the string around but be careful. The STL string operation usually involve the "copy" operation and it could be unnecessary costly.<br/>
+  For example, passing string to a function by value can be costly because if this copy operation.<br/>
+  The solution to the string problem is usually end where we develop the structure that is similar to the STL string with our own allocator, or using "fixed size" buffer where the memory with not be dynamically allocated but statically just like the normal array. 
+</p>
+
+<p>
+  Further discussions
+  <ul>
+    <li>[url]<a href="http://stackoverflow.com/questions/1466073/how-is-stdstring-implemented">http://stackoverflow.com/questions/1466073/how-is-stdstring-implemented</a>[/url]
+    </li>
+  </ul>
+</p>
+
+<p>
+  <h5>Performance impact on Single VS Multiple inheritance?</h5>
+  <ul>
+    <li>
+      How costly is the vtable?
+    </li>
+    <li>
+      Are there any differences in the vtable look-up between single and multiple inheritance? Regardless of the vtable size.
+    </li>
+  </ul>
+</p>
+
+<p/>
+<hr/></div>
+</div>
+<div class="cleared"></div>
+<div class="art-postmetadatafooter">
+<div class="art-postfootericons art-metadata-icons">
+<img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/postcategoryicon.png" alt="postcategoryicon" width="18" height="18" />Category: <span class="art-post-metadata-category-name"><a href="http://my-site:5000/cms/joomla17/index.php/developerblog">DeveloperBlog</a></span>
+</div>
+</div>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+</div>
+</body>
+
+<!-- Mirrored from my-site:5000/cms/joomla17/index.php/developerblog/25-programming-qanda?tmpl=component&print=1&layout=default&page= by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 23:19:56 GMT -->
+</html>

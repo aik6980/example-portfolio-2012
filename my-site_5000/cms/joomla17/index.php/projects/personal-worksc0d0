@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Personal Works</title>
+		<description><![CDATA[Game, Graphic programming, Guitar and Cooking ]]></description>
+		<link>http://my-site:5000/cms/joomla17/index.php/projects/personal-works</link>
+		<lastBuildDate>Mon, 15 Jul 2019 22:43:19 +0000</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="http://my-site:5000/cms/joomla17/index.php/projects/personal-works?format=feed&amp;type=rss"/>
+		<language>en-gb</language>
+		<item>
+			<title>FXComposer ScrapBook (2011)</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/110-fxcomposer-scrapbook-2011</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/110-fxcomposer-scrapbook-2011</guid>
+			<description><![CDATA[<div class="feed-description"><p>
+	<img alt="" src="http://my-site:5000/cms/joomla17/../../resources/images_project/aik_fxcbook/fxc_simplebokeh.jpg" style="width: 500px; height: 455px; " /></p>
+<p>
+	I usually use FXComposer to learn and prototype shaders.&nbsp;FX Composer enables you to create advanced shading effects using .fx files, which are text descriptions of the Direct3D graphics API state and which can be loaded by any Direct3D application using the D3DX effects framework.</p>
+</div>]]></description>
+			<author>aik6980@aikdev.co.uk (Super User)</author>
+			<category>Personal Works</category>
+			<pubDate>Sun, 08 Jul 2012 22:55:59 +0000</pubDate>
+		</item>
+		<item>
+			<title>Equilibrium (2010)</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/101-equilibrium-2010</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/101-equilibrium-2010</guid>
+			<description><![CDATA[<div class="feed-description"><p>
+	<img alt="" src="http://my-site:5000/cms/joomla17/../../resources/images_project/old_eq/old_eq001.png" style="width: 500px; height: 300px; " /></p>
+<p>
+	Equilibrium is an RTS game building for a mobile platform. I have worked on this small project on my spare time as a graphic programmer. In 2010, this could be one of the best thing I have ever spent my weekend time on.</p>
+</div>]]></description>
+			<author>aik6980@aikdev.co.uk (Super User)</author>
+			<category>Personal Works</category>
+			<pubDate>Fri, 13 Jan 2012 19:33:04 +0000</pubDate>
+		</item>
+		<item>
+			<title>Character Instancing (2009)</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/61-character-instancing-2009</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/61-character-instancing-2009</guid>
+			<description><![CDATA[<div class="feed-description"><p>
+	<img alt="" src="http://my-site:5000/cms/joomla17/../../resources/images_project/cgt42_final/cgt42_final002.jpg" style="width: 500px; height: 375px; " /></p>
+<p>
+	<strong><img alt="yes" src="http://aikdev.co.uk/cms/joomla17/plugins/editors/jckeditor/plugins/smiley/images/thumbs_up.gif" style="width: 20px; height: 20px; " title="yes" />Editor pick!: Project of the Year</strong></p>
+<p>
+	The research has been carried on during my Honours year. The research addresses an interesting problem in modern game applications regarding to real-time rendering, where a game scene is detailed with large number of various kinds of objects.</p>
+</div>]]></description>
+			<author>aik6980@aikdev.co.uk (Super User)</author>
+			<category>Personal Works</category>
+			<pubDate>Fri, 20 Mar 2009 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Bezier Curves Animation Control(2008)</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/13-bezier-curves-animation-control2008</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/13-bezier-curves-animation-control2008</guid>
+			<description><![CDATA[<div class="feed-description"><p>
+	<img alt="" src="http://my-site:5000/cms/joomla17/../../resources/images_project/cgt41_bezier/cgt41_bezier002.jpg" style="width: 640px; height: 480px;" /></p>
+<p>
+	The demo shows the Piecewise-Bezier Curve animation control system. Users can adjust the curve&#39;s shape by moving control points position. Objects can be placed on curve and move along under the gravity at the time users adjusting the curve. Not only that, using the hotkeys, users can switch the camera into the Roller Coaster view mode where we can watched the animation as if we are in the front seat.</p>
+</div>]]></description>
+			<author>aik6980@aikdev.co.uk (Super User)</author>
+			<category>Personal Works</category>
+			<pubDate>Fri, 01 Aug 2008 21:00:52 +0000</pubDate>
+		</item>
+		<item>
+			<title>Project CEPA (2008)</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/29-y3s2-group-project</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/29-y3s2-group-project</guid>
+			<description><![CDATA[<div class="feed-description"><p>
+	<img alt="" src="http://my-site:5000/cms/joomla17/../../resources/images_project/cgt32_ogre/cgt32_ogre017.jpg" style="width: 515px; height: 397px;" /></p>
+<p>
+	<strong><img alt="Money mouth" border="0" src="http://my-site:5000/cms/joomla17/media/editors/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-money-mouth.gif" style="vertical-align: middle; margin: 0px;" title="Money mouth" />Editor pick! : Project of the Year Award </strong></p>
+<p>
+	CEPA Project is a full game project from a team of 5 people which I have taken part as a team leader. The project is produced as parts of my third year university&rsquo;s Group project.</p>
+</div>]]></description>
+			<author>aik6980@aikdev.co.uk (Super User)</author>
+			<category>Personal Works</category>
+			<pubDate>Fri, 01 Aug 2008 21:00:52 +0000</pubDate>
+		</item>
+		<item>
+			<title>Procedural Generation (2008)</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/32-procedural-generation-2008</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/32-procedural-generation-2008</guid>
+			<description><![CDATA[<div class="feed-description"><p>
+	<img alt="" src="http://my-site:5000/cms/joomla17/../../resources/images_project/cgt32_terrain/cgt32_terrain007.jpg" style="width: 640px; height: 480px;" /></p>
+<p>
+	The project shows terrain generation techniques, and how to implement them together to form a terrain editor tool for game artists. The demo shows many algorithms and techniques that we could use in combinations in order to create a believable terrain in game application. Not only that, it also presented the various methods for creating some procedural game objects, such as Trees, Clouds and Water.</p>
+</div>]]></description>
+			<author>aik6980@aikdev.co.uk (Super User)</author>
+			<category>Personal Works</category>
+			<pubDate>Fri, 01 Aug 2008 21:00:52 +0000</pubDate>
+		</item>
+		<item>
+			<title>DirectX HLSL (2007)</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/28-directx-hlsl-2007</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/28-directx-hlsl-2007</guid>
+			<description><![CDATA[<div class="feed-description"><p>
+	<img alt="" src="http://my-site:5000/cms/joomla17/../../resources/images_project/cgt31_dxhlsl/cgt31_dxhlsl004.jpg" style="width: 646px; height: 512px;" /></p>
+<p>
+	The program is developed using DirectX9 API. The main idea is to experiment and integrate the HLSL Shaders into my framework. The fixed-pipeline function also has been replaced with the equivalent shaders.</p>
+</div>]]></description>
+			<author>aik6980@aikdev.co.uk (Super User)</author>
+			<category>Personal Works</category>
+			<pubDate>Fri, 01 Aug 2008 21:00:52 +0000</pubDate>
+		</item>
+		<item>
+			<title>Ogre3D Scene Manipulator (2007)</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/64-ogre3d-scene-manipulator-2007</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/64-ogre3d-scene-manipulator-2007</guid>
+			<description><![CDATA[<div class="feed-description"><p>
+	<img alt="" src="http://my-site:5000/cms/joomla17/../../resources/images_project/cgt31_tools/cgt31_tool001.jpg" style="height: 375px; width: 500px;" /></p>
+<p>
+	The demo is developed in 2007 as parted of my course works for &quot;Game Tools Programming&quot; module, at Abertay University.<br />
+	The idea is to show how to create a script parser that can be used to help users quickly manipulate and test the game scene in real-time. Users are allowed to attached 3DModel objects and control their animations, point light objects and etc.</p>
+</div>]]></description>
+			<author>aik6980@aikdev.co.uk (Super User)</author>
+			<category>Personal Works</category>
+			<pubDate>Fri, 01 Aug 2008 21:00:52 +0000</pubDate>
+		</item>
+		<item>
+			<title>Y3S1 PS2 VectorUnits</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/27-y3s1-ps2-vectorunits</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/27-y3s1-ps2-vectorunits</guid>
+			<description><![CDATA[<div class="feed-description"><p>
+	<img alt="" src="http://my-site:5000/cms/joomla17/../../resources/images_project/cgt31_ps2vu/cgt31_ps2vu001.jpg" style="width: 640px; height: 512px;" /></p>
+<p>
+	The program has been developed in 2007, in order to explore and experiment the real power of PS2 3D pipeline. Using the Vector Unit 1/2 to perform the vertex operations.</p>
+</div>]]></description>
+			<author>aik6980@aikdev.co.uk (Super User)</author>
+			<category>Personal Works</category>
+			<pubDate>Fri, 01 Aug 2008 21:00:52 +0000</pubDate>
+		</item>
+		<item>
+			<title>Y2S2 PS2 EECore</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/6-y2s2-ps2-eecore</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/6-y2s2-ps2-eecore</guid>
+			<description><![CDATA[<div class="feed-description"><p>
+	<strong><img alt="" src="http://my-site:5000/cms/joomla17/../../resources/images_project/cgt22_ps2doom/cgt22_ps2doom006.jpg" style="border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; width: 500px; height: 400px; " /></strong></p>
+<p>
+	<strong>SCEE Award Winner 2006</strong></p>
+<p>
+	Developed on the Playstation 2, The project is created base on the famous DOOM game. Even idea is the same, but the game need totally different implementation to make it happens on PS2 Console.</p>
+</div>]]></description>
+			<author>aik6980@aikdev.co.uk (Super User)</author>
+			<category>Personal Works</category>
+			<pubDate>Thu, 17 Jul 2008 21:00:52 +0000</pubDate>
+		</item>
+		<item>
+			<title>Y2S2 OpenGL</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/15-y2s2-opengl</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/15-y2s2-opengl</guid>
+			<description><![CDATA[<div class="feed-description"><p>
+	<img alt="" src="http://my-site:5000/cms/joomla17/../../resources/images_project/cgt22_ogl/cgt22_ogl002.jpg" style="border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; width: 500px; height: 392px; " /></p>
+<p>
+	Developed in 2006, the application is part of my 3D programming practice using OpenGL API. Everything is rendered via the fixed-pipeline functionality.</p>
+</div>]]></description>
+			<author>aik6980@aikdev.co.uk (Super User)</author>
+			<category>Personal Works</category>
+			<pubDate>Fri, 18 Jul 2008 08:17:18 +0000</pubDate>
+		</item>
+		<item>
+			<title>Y2S1 Pathfinding</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/12-y2s1-pathfinding</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/projects/personal-works/12-y2s1-pathfinding</guid>
+			<description><![CDATA[<div class="feed-description"><p>
+	<img alt="" src="http://my-site:5000/cms/joomla17/../../resources/images_project/cgt21_astar/cgt21_astar004.jpg" style="width: 500px; height: 396px; " /></p>
+<p>
+	PathFinding Algorithm is developed in 2006. These small applications are my work from the Pathfinding and STL Algorithm module. I&#39;m quite amazed and impressed in the mathematical power which is used to produce the Pathfinding algorithm.<br />
+	The demo is created in order to demonstrate the algorithms as visualization.</p>
+</div>]]></description>
+			<author>aik6980@aikdev.co.uk (Super User)</author>
+			<category>Personal Works</category>
+			<pubDate>Wed, 16 Jul 2008 23:22:20 +0000</pubDate>
+		</item>
+	</channel>
+</rss>

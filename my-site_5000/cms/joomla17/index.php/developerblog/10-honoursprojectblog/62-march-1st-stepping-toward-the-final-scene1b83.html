@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+
+<!-- Mirrored from my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog/62-march-1st-stepping-toward-the-final-scene?tmpl=component&print=1&layout=default&page= by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 23:19:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+   <base  />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="game, rendering, graphics, gpu" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="description" content="Game, Graphic programming, Guitar and Cooking " />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>March, 1st: Stepping toward the final scene </title>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/core.js" type="text/javascript"></script>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/caption.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+  </script>
+
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/system/css/system.css" type="text/css" />
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/system/css/general.css" type="text/css" />
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/tpl_content01/css/print.css" type="text/css" />
+</head>
+<body class="contentpane">
+ 
+<div id="system-message-container">
+</div>
+ 
+
+<div class="item-page"><div class="art-post">
+    <div class="art-post-body">
+<div class="art-post-inner">
+<h2 class="art-postheader"> <a href="http://my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog/62-march-1st-stepping-toward-the-final-scene" class="PostHeader">March, 1st: Stepping toward the final scene </a></h2>
+<div class="art-postheadericons art-metadata-icons">
+<img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/postdateicon.png" alt="postdateicon" width="16" height="16" />Last Updated on Monday, 02 January 2012 09:51 | <a href="#" onclick="window.print();return false;"><img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/system/printButton.png" alt="Print"  /></a> | Hits: 905
+</div>
+<div class="art-postcontent">
+<div class="art-article"><h3>My personal quote<br /></h3>
+<ul>
+<li>Finally, I understand (partially) how to use VTUNE analyser to profile the application and find CPU bottlenecks</li>
+<li>Found some error in NVPerfHUD DirectX10 Driver. Using effect class, there's a problem when we try to read the shared "EffectVariables" from "Effectpool".</li>
+<li>The program under a normal driver, but not for NVDia instrument river   <br /></li>
+</ul>
+<h3>Screenshots</h3>
+<p><a href="http://img128.imageshack.us/my.php?image=090301rain.jpg" target="_blank"><img src="http://img128.imageshack.us/img128/1872/090301rain.th.jpg" alt="Free Image Hosting at www.ImageShack.us" border="0" /></a> <a href="http://img294.imageshack.us/my.php?image=090301rain150k150k.jpg" target="_blank"><img src="http://img294.imageshack.us/img294/7829/090301rain150k150k.th.jpg" alt="Free Image Hosting at www.ImageShack.us" border="0" /></a> <a href="http://img390.imageshack.us/my.php?image=090301rain150k150kcpupr.jpg" target="_blank"><img src="http://img390.imageshack.us/img390/189/090301rain150k150kcpupr.th.jpg" alt="Free Image Hosting at www.ImageShack.us" border="0" /></a></p>
+<ul>
+<li>Screenshots show where we integrate the GPU rain particles into static army scene </li>
+<li>Currently, an army contains 150k men</li>
+<li>Rain system 150k moving particles </li>
+</ul>
+<h3>Updated activities</h3>
+<ul>
+<li>Measuring performance from the latest screen</li>
+<li>Static Army men (Stream instancing) + GPU Rain system </li>
+<li>VTUNE Analyser shows the rain particles system has consumed a very small CPU time
+ 
+</li>
+</ul>
+<h3>Note from last week discussion</h3>
+<ul>
+<li>First of all, thanks to Henry and Matt for introducing me to Damian (RARE) and allow me to have a private chat with him :)</li>
+<li>Using <strong>"Double buffering"</strong> concept should be able to help me extend my application into multi-threading.</li>
+<li>Suppress animation and mesh's random select will definitely reduce the CPU load (where the bottleneck is meshes LOD -&gt; instance buffer classification)</li>
+<li>Usually, 3-4 LOD levels is enough in most situations</li>
+<li>Real time Impostors can be updated and rendered at the top of the frame, before everything else.</li>
+<li>Objects will be tested and tell the impostors pool that they need one. If nothing to update, we can skip the impostors update process in order to save some frame time</li>
+<li>Above strategy shows that impostors preparation can be CPU-bound (because they need a lot of stage-changing)</li>
+</ul>
+<hr />
+<ul>
+<li>Also have a discussion with Stuart Gray. Last year's student which hos final year project is about "Rendering Crowd". His project is about the objects's diversity rather than performance.</li>
+</ul>
+<ul>
+<li>He spotted that some cheap rendering tricks can be used to avoid crowd similarity, in order to trick player's perception on scene realism.</li>
+<li>Using <strong>"Texture arrays"</strong> and some coloring parameters can increase the object variation.</li>
+<li>Distanced object animation can be replaced by the simple movement (e.g. Cheering animation -&gt; Move object up and down repeatly) </li>
+</ul>
+<h3>Plan for next week</h3>
+<ul>
+<li>Grassy plain rendering</li>
+<li>The plan is to past the position's vertex stream and generate grass patch on GPU</li>
+<li>Terrain patch position could be shared using Instancing</li>
+<li>Animation code revisited</li>
+<li>Then try measuring the performance again </li>
+</ul></div>
+</div>
+<div class="cleared"></div>
+<div class="art-postmetadatafooter">
+<div class="art-postfootericons art-metadata-icons">
+<img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/postcategoryicon.png" alt="postcategoryicon" width="18" height="18" />Category: <span class="art-post-metadata-category-name"><a href="http://my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog">HonoursProjectBlog</a></span>
+</div>
+</div>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+</div>
+</body>
+
+<!-- Mirrored from my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog/62-march-1st-stepping-toward-the-final-scene?tmpl=component&print=1&layout=default&page= by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 23:19:57 GMT -->
+</html>

@@ -1,0 +1,35 @@
+/*
+ * @version		$Id: mod_featcats.css 2011 vargas $
+ * @package		mod_featcats
+ * @copyright	Copyright (C) 2005 - 2011 Open Source Matters, Inc. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ */
+ 
+ul.featcats, ul.featcats_leading {
+	margin: 0!important;
+	padding: 0!important;
+	list-style: none;
+}
+li.featcat {
+	float: left;
+	padding: 0 10px!important;
+	background: none!important;
+}
+.featcats_leading li {
+	border-top: 1px solid #DDDDDD;
+	padding-top: 10px 0 0!important;
+	background: none!important;
+}
+.featcats_leading li:first-child {
+	padding-top: 0;
+	border: none;
+}
+li.featcat_clr {
+	clear: both;
+}
+ul.featcats img {
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-right: 10px;
+}

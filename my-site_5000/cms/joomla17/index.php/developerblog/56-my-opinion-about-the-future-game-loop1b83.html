@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+
+<!-- Mirrored from my-site:5000/cms/joomla17/index.php/developerblog/56-my-opinion-about-the-future-game-loop?tmpl=component&print=1&layout=default&page= by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 23:19:55 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+   <base  />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="game, rendering, graphics, gpu" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="description" content="Game, Graphic programming, Guitar and Cooking " />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>My opinion about the concept of the game loop in the future</title>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/core.js" type="text/javascript"></script>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/caption.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+  </script>
+
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/system/css/system.css" type="text/css" />
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/system/css/general.css" type="text/css" />
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/tpl_content01/css/print.css" type="text/css" />
+</head>
+<body class="contentpane">
+ 
+<div id="system-message-container">
+</div>
+ 
+
+<div class="item-page"><div class="art-post">
+    <div class="art-post-body">
+<div class="art-post-inner">
+<h2 class="art-postheader"> <a href="http://my-site:5000/cms/joomla17/index.php/developerblog/56-my-opinion-about-the-future-game-loop" class="PostHeader">My opinion about the concept of the game loop in the future</a></h2>
+<div class="art-postheadericons art-metadata-icons">
+<img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/postdateicon.png" alt="postdateicon" width="16" height="16" />Last Updated on Tuesday, 27 December 2011 20:50 | <a href="#" onclick="window.print();return false;"><img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/system/printButton.png" alt="Print"  /></a> | Hits: 849
+</div>
+<div class="art-postcontent">
+<div class="art-article"><p><img style="margin: 5px; float: left;" src="http://www.ziggyware.com/ZiggywareImages/Articles/MTPhysics/dc3j5d6h_6c7f2vbfn_b.jpg" height="128" width="128" /> These days, multithreaded programming become a very popular topic since the modern CPU has a trend to be manufactured in the multi-cores fashion.</p>
+<p>In the past, CPU has been increased its power through its operation frequency. Higher clock they used, higher and faster performance we can have. If we take a look at a basic game loop, the trend of CPU development in those days is perfectly fitted in the way we, game developers, prefer. Considering the game loop performance could be determined from how fast the CPU can update through the whole process, (update, simulate and render) we can see the game application will be able to run faster regarding to the increased frequency.</p>
+<p>It does seem like the application will be scaled automatically as the hardware progress. Since we don't have to plan ahead for the application's scalability, then we could assume that the increased performance can be gained for "FREE"  
+ 
+</p>
+<p><img style="margin: 5px; float: left;" src="http://www.ziggyware.com/ZiggywareImages/Articles/MTPhysics/dc3j5d6h_109ddjcphq_b.jpg" height="128" width="303" />In multi-cores fashion, we won't get any free extra performance without planning. Single-threaded application will not gain the best performance on the Multi-cores processor. Then, can we just multi-threaded our game?</p>
+<p>It's true that multi-threaed game loop model that we are after, however, it's not a guarantee that your game application will always gain the huge performance after multithreading. As we concern, the game application usually contain a lot of objects that "share" the data across the different processes. In multithreaded programming, "Shared data" is one of the most troublesome situation that can reduce your application performance dramatically, because of the data access control which can block the parallel operations.</p>
+<p>In conclusion, without well-ahead planning, multithreading programmers can spend time for so long trying to optimize their application into the multithreaded fashion. It sounds painful, but they can ended up have no or very little performance gain because of those above restrictions.</p>
+<p>There are quite a few techniques that is popular in order to handle the multithreading problem in games. The techniques such as <strong>"Double Buffering"</strong>, <strong>"Lock-free data structure"</strong> and <strong>"Command Queues or Deferred function calls"</strong> have been proved very useful and suitable on the modern situations. However, it's still quite complicated, and sounds unnecessary for the higher level programming.</p>
+<p>In my opinion, it will be great if it is possible to leave the game application's scalability handled by the compiler and operating system. Considering we need an information of the status of registers and buffers, in order to optimize the multithreading situation. If these operations can be determined dynamically from the lower-level, the operating system could be used as the great hand to scale our application to be optimal on the different hardware!</p>
+<p>Currently, I can see from some hardware manufacturers started to put those semi-automatic scalable application concept on to their drivers, compilers and libraries. Intel has their own package called "TBB" that trying to provide the ability to distribute operations among CPU cores automatically, based on the <strong>"Task Stealing" </strong>concept by using thread-pools and task-pools.</p>
+<p>On the graphic card, the new driver, such as DirectX10, the memory operation that have to done on the GPU will be operated under the command queue in order to reduce the blocking situation. The command queue concept also yield out another benefit where each task can be prioritized.</p>
+<p>Ultimately, I hope in the future we can scale the game application to multi-cores processor without modifying the concept of basic game loop so it can stay beautiful and simple as it already did =) . According to the above techniques and technologies, I strongly believe that the application has the possibility to be scaled automatically by the smart compiler and the operating system in the coming age.</p>
+<p>referred to "The Free Lunch is Over" by Hurb Sutter<br /><a target="_blank" href="http://www.gotw.ca/publications/concurrency-ddj.htm"><a href="http://www.gotw.ca/publications/concurrency-ddj.htm">http://www.gotw.ca/publications/concurrency-ddj.htm</a> </a></p></div>
+</div>
+<div class="cleared"></div>
+<div class="art-postmetadatafooter">
+<div class="art-postfootericons art-metadata-icons">
+<img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/postcategoryicon.png" alt="postcategoryicon" width="18" height="18" />Category: <span class="art-post-metadata-category-name"><a href="http://my-site:5000/cms/joomla17/index.php/developerblog">DeveloperBlog</a></span>
+</div>
+</div>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+</div>
+</body>
+
+<!-- Mirrored from my-site:5000/cms/joomla17/index.php/developerblog/56-my-opinion-about-the-future-game-loop?tmpl=component&print=1&layout=default&page= by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 23:19:55 GMT -->
+</html>

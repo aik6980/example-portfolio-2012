@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+
+<!-- Mirrored from my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog/43-week-9-rare-talks-superbly-useful-presentation?tmpl=component&print=1&layout=default&page= by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 23:19:29 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+   <base  />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="game, rendering, graphics, gpu" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="description" content="Game, Graphic programming, Guitar and Cooking " />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Week 9 : RARE talks, superbly useful presentation!</title>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/core.js" type="text/javascript"></script>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/caption.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+  </script>
+
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/system/css/system.css" type="text/css" />
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/system/css/general.css" type="text/css" />
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/tpl_content01/css/print.css" type="text/css" />
+</head>
+<body class="contentpane">
+ 
+<div id="system-message-container">
+</div>
+ 
+
+<div class="item-page"><div class="art-post">
+    <div class="art-post-body">
+<div class="art-post-inner">
+<h2 class="art-postheader"> <a href="http://my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog/43-week-9-rare-talks-superbly-useful-presentation" class="PostHeader">Week 9 : RARE talks, superbly useful presentation!</a></h2>
+<div class="art-postheadericons art-metadata-icons">
+<img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/postdateicon.png" alt="postdateicon" width="16" height="16" />Last Updated on Monday, 02 January 2012 09:51 | <a href="#" onclick="window.print();return false;"><img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/system/printButton.png" alt="Print"  /></a> | Hits: 762
+</div>
+<div class="art-postcontent">
+<div class="art-article"><a href="http://img296.imageshack.us/my.php?image=spritesheetheavyweaponszr6.gif" target="_blank"><img style="margin: 5px 10px; float: left;" src="http://img296.imageshack.us/img296/3214/spritesheetheavyweaponszr6.th.gif" alt="Free Image Hosting at www.ImageShack.us" width="119" height="165" /></a>This week we just had the best lecture ever!<br />The lecturer is one of the lead graphic programmer from RARE Games. I'm not quite sure how to spell his fullname, and it will be a bad idea to blindly type it here so I will call him Mr.D.
+<p>Mr.D is so awesome! and since I'm so crazy about the game graphic programming, this makes his lecture is uberly useful to me, both of the honours project and personal research PoV.</p>
+<p>Briefly, the whole lecture was about the advance full-screen effect, which most of them have already become a standard in modern game applications.<br />Personally, the full-screen effcet is not a new thing to me. I did implement them quite a few times into my past works (Direct3D, GroupProject). I found his lecture's real benefits are where he strongly confirmed most of my understanding are correct. =D</p>
+<p>I also noted down some programming tips as following</p>
+<ul>
+<li>Offline ambient occlusion is still the best solution for most games.<br />around 32-64 rays have been casted from different angles in the offline-authoring tool<br />(Will ask Martin about this!)</li>
+<li>Imposters are rendered using the key-color (like below sprite-based image) to exclude the unwanted project area. It use no-blending at all!</li>
+<li>Imposters could be a few frames of animation, which the texture atlas technique could be used to store images in spatial-struture form (quad-tree)</li>
+<li>Transparency is still a major problem on many effect such as fog.<br />It might sounds expensive, but we could render them again after the effect has been done to make sure we had the correct destination color while blending.</li>
+<li>Imposters should be generated with the depth-texture</li>
+<li>The great example for "partial-glow" is TRON2.0 the game</li>
+<li>Deferred rendering (like deferred shading?) heavily used the fullscreen buffer, and it's memory-bound</li>
+</ul> </div>
+</div>
+<div class="cleared"></div>
+<div class="art-postmetadatafooter">
+<div class="art-postfootericons art-metadata-icons">
+<img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/postcategoryicon.png" alt="postcategoryicon" width="18" height="18" />Category: <span class="art-post-metadata-category-name"><a href="http://my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog">HonoursProjectBlog</a></span>
+</div>
+</div>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+</div>
+</body>
+
+<!-- Mirrored from my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog/43-week-9-rare-talks-superbly-useful-presentation?tmpl=component&print=1&layout=default&page= by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 23:19:29 GMT -->
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+
+<!-- Mirrored from my-site:5000/cms/joomla17/index.php/developerblog/56-my-opinion-about-the-future-game-loop by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 23:18:33 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+   <base  />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="game, rendering, graphics, gpu" />
+  <meta name="description" content="Game, Graphic programming, Guitar and Cooking " />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>My opinion about the concept of the game loop in the future</title>
+  <script src="../../media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="../../media/system/js/core.js" type="text/javascript"></script>
+  <script src="../../media/system/js/caption.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+  </script>
+
+ <link rel="stylesheet" href="../../templates/system/css/system.css" type="text/css" />
+ <link rel="stylesheet" href="../../templates/system/css/general.css" type="text/css" />
+ <link rel="stylesheet" type="text/css" href="../../templates/tpl_content01/css/template.css" media="screen" />
+ <!--[if IE 6]><link rel="stylesheet" href="/cms/joomla17/templates/tpl_content01/css/template.ie6.css" type="text/css" media="screen" /><![endif]-->
+ <!--[if IE 7]><link rel="stylesheet" href="/cms/joomla17/templates/tpl_content01/css/template.ie7.css" type="text/css" media="screen" /><![endif]-->
+ <script type="text/javascript">if ('undefined' != typeof jQuery) document._artxJQueryBackup = jQuery;</script>
+ <script type="text/javascript" src="../../templates/tpl_content01/jquery.js"></script>
+ <script type="text/javascript">jQuery.noConflict();</script>
+ <script type="text/javascript" src="../../templates/tpl_content01/script.js"></script>
+ <script type="text/javascript">if (document._artxJQueryBackup) jQuery = document._artxJQueryBackup;</script>
+</head>
+<body class="art-j16">
+<div id="art-page-background-middle-texture">
+<div id="art-page-background-glare">
+    <div id="art-page-background-glare-image"> </div>
+</div>
+<div id="art-main">
+    <div class="cleared reset-box"></div>
+<div id="art-hmenu-bg">
+	<div class="art-nav-l"></div>
+	<div class="art-nav-r"></div>
+</div>
+<div class="cleared"></div>
+<div class="art-sheet">
+    <div class="art-sheet-body">
+<div class="art-nav">
+	<div class="art-nav-l"></div>
+	<div class="art-nav-r"></div>
+<div class="art-nav-outer">
+			<ul class="art-hmenu"><li class="item101"><a href="../../index-2.html"><span class="l"></span><span class="r"></span><span class="t">Home</span></a></li><li class="item116"><a href="../online-cv.html"><span class="l"></span><span class="r"></span><span class="t">Online CV</span></a></li><li class="item119"><a href="../projects.html"><span class="l"></span><span class="r"></span><span class="t">Projects</span></a><ul><li class="item120"><a href="../projects/commercial-titles.html">Commercial Titles</a></li><li class="item121"><a href="../projects/personal-works.html">Personal Works</a></li></ul></li><li id="current" class="active item135"><a class=" active" href="../developerblog.html"><span class="l"></span><span class="r"></span><span class="t">DeveloperBlog</span></a></li><li class="item118"><a href="../lifeblog.html"><span class="l"></span><span class="r"></span><span class="t">LifeBlog</span></a></li><li class="item133"><a href="../about.html"><span class="l"></span><span class="r"></span><span class="t">About</span></a></li></ul></div>
+</div>
+<div class="cleared reset-box"></div>
+<div class="art-header">
+    <div class="art-header-clip">
+    <div class="art-header-center">
+        <div class="art-header-png"></div>
+    </div>
+    </div>
+<div class="art-logo">
+ <h1 class="art-logo-name"><a href="../../index-2.html">Example Online Porforlio 2012 - Aikdev.co.uk</a></h1>
+ <h2 class="art-logo-text">Game, Graphic programming, Guitar and Cooking </h2>
+</div>
+
+</div>
+<div class="cleared reset-box"></div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+<div class="art-layout-cell art-content">
+
+
+
+<div class="item-page"><div class="art-post">
+    <div class="art-post-body">
+<div class="art-post-inner">
+<h2 class="art-postheader"> <a href="56-my-opinion-about-the-future-game-loop.html" class="PostHeader">My opinion about the concept of the game loop in the future</a></h2>
+<div class="art-postheadericons art-metadata-icons">
+<img src="../../templates/tpl_content01/images/postdateicon.png" alt="postdateicon" width="16" height="16" />Last Updated on Tuesday, 27 December 2011 20:50 | <a href="56-my-opinion-about-the-future-game-loop1b83.html?tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Print" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="../../templates/tpl_content01/images/system/printButton.png" alt="Print"  /></a> | Hits: 848
+</div>
+<div class="art-postcontent">
+<div class="art-article"><p><img style="margin: 5px; float: left;" src="../../../../../www.ziggyware.com/ZiggywareImages/Articles/MTPhysics/dc3j5d6h_6c7f2vbfn_b.jpg" height="128" width="128" /> These days, multithreaded programming become a very popular topic since the modern CPU has a trend to be manufactured in the multi-cores fashion.</p>
+<p>In the past, CPU has been increased its power through its operation frequency. Higher clock they used, higher and faster performance we can have. If we take a look at a basic game loop, the trend of CPU development in those days is perfectly fitted in the way we, game developers, prefer. Considering the game loop performance could be determined from how fast the CPU can update through the whole process, (update, simulate and render) we can see the game application will be able to run faster regarding to the increased frequency.</p>
+<p>It does seem like the application will be scaled automatically as the hardware progress. Since we don't have to plan ahead for the application's scalability, then we could assume that the increased performance can be gained for "FREE"  
+ 
+</p>
+<p><img style="margin: 5px; float: left;" src="../../../../../www.ziggyware.com/ZiggywareImages/Articles/MTPhysics/dc3j5d6h_109ddjcphq_b.jpg" height="128" width="303" />In multi-cores fashion, we won't get any free extra performance without planning. Single-threaded application will not gain the best performance on the Multi-cores processor. Then, can we just multi-threaded our game?</p>
+<p>It's true that multi-threaed game loop model that we are after, however, it's not a guarantee that your game application will always gain the huge performance after multithreading. As we concern, the game application usually contain a lot of objects that "share" the data across the different processes. In multithreaded programming, "Shared data" is one of the most troublesome situation that can reduce your application performance dramatically, because of the data access control which can block the parallel operations.</p>
+<p>In conclusion, without well-ahead planning, multithreading programmers can spend time for so long trying to optimize their application into the multithreaded fashion. It sounds painful, but they can ended up have no or very little performance gain because of those above restrictions.</p>
+<p>There are quite a few techniques that is popular in order to handle the multithreading problem in games. The techniques such as <strong>"Double Buffering"</strong>, <strong>"Lock-free data structure"</strong> and <strong>"Command Queues or Deferred function calls"</strong> have been proved very useful and suitable on the modern situations. However, it's still quite complicated, and sounds unnecessary for the higher level programming.</p>
+<p>In my opinion, it will be great if it is possible to leave the game application's scalability handled by the compiler and operating system. Considering we need an information of the status of registers and buffers, in order to optimize the multithreading situation. If these operations can be determined dynamically from the lower-level, the operating system could be used as the great hand to scale our application to be optimal on the different hardware!</p>
+<p>Currently, I can see from some hardware manufacturers started to put those semi-automatic scalable application concept on to their drivers, compilers and libraries. Intel has their own package called "TBB" that trying to provide the ability to distribute operations among CPU cores automatically, based on the <strong>"Task Stealing" </strong>concept by using thread-pools and task-pools.</p>
+<p>On the graphic card, the new driver, such as DirectX10, the memory operation that have to done on the GPU will be operated under the command queue in order to reduce the blocking situation. The command queue concept also yield out another benefit where each task can be prioritized.</p>
+<p>Ultimately, I hope in the future we can scale the game application to multi-cores processor without modifying the concept of basic game loop so it can stay beautiful and simple as it already did =) . According to the above techniques and technologies, I strongly believe that the application has the possibility to be scaled automatically by the smart compiler and the operating system in the coming age.</p>
+<p>referred to "The Free Lunch is Over" by Hurb Sutter<br /><a target="_blank" href="http://www.gotw.ca/publications/concurrency-ddj.htm"><a href="http://www.gotw.ca/publications/concurrency-ddj.htm">http://www.gotw.ca/publications/concurrency-ddj.htm</a> </a></p></div>
+</div>
+<div class="cleared"></div>
+<div class="art-postmetadatafooter">
+<div class="art-postfootericons art-metadata-icons">
+<img src="../../templates/tpl_content01/images/postcategoryicon.png" alt="postcategoryicon" width="18" height="18" />Category: <span class="art-post-metadata-category-name"><a href="../developerblog.html">DeveloperBlog</a></span>
+</div>
+</div>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+</div>
+  <div class="cleared"></div>
+</div>
+<div class="art-layout-cell art-sidebar1">
+        <div class="art-block">
+            <div class="art-block-body">
+        
+                <div class="art-blockheader">
+            <div class="l"></div>
+            <div class="r"></div>
+            <h3 class="t">
+        Tag</h3>
+        </div>
+                <div class="art-blockcontent">
+            <div class="art-blockcontent-body">
+        
+        
+<style type="text/css">
+
+div#easytagcloud a:link {
+	text-decoration: none;
+}
+
+div#easytagcloud a:hover {
+	text-decoration: none;
+}
+
+div#easytagcloud a {
+	font-weight: bold;
+    color: ;
+	margin-left: 2px;
+	margin-right: 2px;	
+}
+
+div#easytagcloud {
+    line-height: 20px;
+}
+
+</style>
+
+<div id="easytagcloud" style="text-align:justify">
+<a href='../component/search/index1de2.html?Itemid=1&amp;searchword=3d&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='2 related articles' target='_blank'>3d</a> <a href='../component/search/indexa1f3.html?Itemid=1&amp;searchword=aaa&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='4 related articles' target='_blank'>aaa</a> <a href='../component/search/indexddf5.html?Itemid=1&amp;searchword=abertay&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:1.8em;' title='16 related articles' target='_blank'>abertay</a> <a href='../component/search/index0017.html?Itemid=1&amp;searchword=awards&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='4 related articles' target='_blank'>awards</a> <a href='../component/search/index4d65.html?Itemid=1&amp;searchword=bbc&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='3 related articles' target='_blank'>bbc</a> <a href='../component/search/indexfc41.html?Itemid=1&amp;searchword=c%20%20&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='2 related articles' target='_blank'>c++</a> <a href='../component/search/index0b3f.html?Itemid=1&amp;searchword=cgt&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:1.8em;' title='15 related articles' target='_blank'>cgt</a> <a href='../component/search/index8d4b.html?Itemid=1&amp;searchword=company&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='3 related articles' target='_blank'>company</a> <a href='../component/search/index8101.html?Itemid=1&amp;searchword=cpp&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='3 related articles' target='_blank'>cpp</a> <a href='../component/search/indexd191.html?Itemid=1&amp;searchword=cv&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='3 related articles' target='_blank'>cv</a> <a href='../component/search/index038c.html?Itemid=1&amp;searchword=documentary&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='3 related articles' target='_blank'>documentary</a> <a href='../component/search/index1858.html?Itemid=1&amp;searchword=driver&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='3 related articles' target='_blank'>driver</a> <a href='../component/search/index9b0b.html?Itemid=1&amp;searchword=eecore&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='2 related articles' target='_blank'>eecore</a> <a href='../component/search/indexc315.html?Itemid=1&amp;searchword=flash&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='2 related articles' target='_blank'>flash</a> <a href='../component/search/indexa600.html?Itemid=1&amp;searchword=game&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='4 related articles' target='_blank'>game</a> <a href='../component/search/index7fe4.html?Itemid=1&amp;searchword=hlsl&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='3 related articles' target='_blank'>hlsl</a> <a href='../component/search/indexc35c.html?Itemid=1&amp;searchword=job&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='5 related articles' target='_blank'>job</a> <a href='../component/search/indexde7b.html?Itemid=1&amp;searchword=movie&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='2 related articles' target='_blank'>movie</a> <a href='../component/search/index3bb0.html?Itemid=1&amp;searchword=music&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='3 related articles' target='_blank'>music</a> <a href='../component/search/index33d8.html?Itemid=1&amp;searchword=ogre3d&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='2 related articles' target='_blank'>ogre3d</a> <a href='../component/search/index708f.html?Itemid=1&amp;searchword=opengl&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='2 related articles' target='_blank'>opengl</a> <a href='../component/search/index4781.html?Itemid=1&amp;searchword=photo&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='2 related articles' target='_blank'>photo</a> <a href='../component/search/indexc75c.html?Itemid=1&amp;searchword=programming&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='3 related articles' target='_blank'>programming</a> <a href='../component/search/index3064.html?Itemid=1&amp;searchword=project&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:2.1em;' title='18 related articles' target='_blank'>project</a> <a href='../component/search/index74db.html?Itemid=1&amp;searchword=ps2&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='3 related articles' target='_blank'>ps2</a> <a href='../component/search/index0dac.html?Itemid=1&amp;searchword=ps3&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='2 related articles' target='_blank'>ps3</a> <a href='../component/search/indexa7a6.html?Itemid=1&amp;searchword=resume&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='2 related articles' target='_blank'>resume</a> <a href='../component/search/indexa4fc.html?Itemid=1&amp;searchword=shaders&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='4 related articles' target='_blank'>shaders</a> <a href='../component/search/indexe6ae.html?Itemid=1&amp;searchword=showcase&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.7em;' title='4 related articles' target='_blank'>showcase</a> <a href='../component/search/index09d1.html?Itemid=1&amp;searchword=ubisoft&amp;submit=Search&amp;searchphrase=exact&amp;ordering=newest' style='font-size:0.75em;' title='6 related articles' target='_blank'>ubisoft</a> </div>
+<br/>
+<!-- <span style="font-size: 0.5em;">Powered by <a href="http://www.joomlatonight.com" title="Easytagcloud">Easytagcloud v2.1</a></span> -->
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        <div class="art-block">
+            <div class="art-block-body">
+        
+                <div class="art-blockheader">
+            <div class="l"></div>
+            <div class="r"></div>
+            <h3 class="t">
+        Projects</h3>
+        </div>
+                <div class="art-blockcontent">
+            <div class="art-blockcontent-body">
+        
+        <ul class="categories-module">
+	<li >   <h5>
+		<a href="../projects/commercial-titles.html">
+		Commercial Titles</a>
+   </h5>
+
+		 </li>
+	<li >   <h5>
+		<a href="../projects/personal-works.html">
+		Personal Works</a>
+   </h5>
+
+		 </li>
+</ul>
+
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+
+  <div class="cleared"></div>
+</div>
+
+    </div>
+</div>
+<div class="cleared"></div>
+
+
+<div class="art-footer">
+    <div class="art-footer-t"></div>
+    <div class="art-footer-b"></div>
+    <div class="art-footer-body">
+                        <div class="art-footer-text">
+                                        <p><a href="#">Link1</a> | <a href="#">Link2</a> | <a href="#">Link3</a></p><p>Copyright © 2012. All Rights Reserved.</p>
+
+                                                        </div>
+        <div class="cleared"></div>
+    </div>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+<div class="cleared"></div>
+<p class="art-page-footer"><a href="http://www.artisteer.com/?p=joomla_templates">Joomla template</a> created with Artisteer.</p>
+
+    <div class="cleared"></div>
+</div>
+</div>
+
+</body>
+
+<!-- Mirrored from my-site:5000/cms/joomla17/index.php/developerblog/56-my-opinion-about-the-future-game-loop by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 23:18:33 GMT -->
+</html>

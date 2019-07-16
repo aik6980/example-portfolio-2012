@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+
+<!-- Mirrored from my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog/52-profiling-tools?tmpl=component&print=1&layout=default&page= by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 23:20:02 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+   <base  />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="game, rendering, graphics, gpu" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="description" content="Game, Graphic programming, Guitar and Cooking " />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Profiling tools</title>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/core.js" type="text/javascript"></script>
+  <script src="http://my-site:5000/cms/joomla17/media/system/js/caption.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+  </script>
+
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/system/css/system.css" type="text/css" />
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/system/css/general.css" type="text/css" />
+ <link rel="stylesheet" href="http://my-site:5000/cms/joomla17/templates/tpl_content01/css/print.css" type="text/css" />
+</head>
+<body class="contentpane">
+ 
+<div id="system-message-container">
+</div>
+ 
+
+<div class="item-page"><div class="art-post">
+    <div class="art-post-body">
+<div class="art-post-inner">
+<h2 class="art-postheader"> <a href="http://my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog/52-profiling-tools" class="PostHeader">Profiling tools</a></h2>
+<div class="art-postheadericons art-metadata-icons">
+<img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/postdateicon.png" alt="postdateicon" width="16" height="16" />Last Updated on Monday, 02 January 2012 09:51 | <a href="#" onclick="window.print();return false;"><img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/system/printButton.png" alt="Print"  /></a> | Hits: 519
+</div>
+<div class="art-postcontent">
+<div class="art-article"><p>Before we start profiling performance on our application, it's very important that we also understand the tools that we use to perform such the operations. We already had a talk about what and where is the potential bottlenecks could occurs. For a quick reminder, there're two main areas of bottlenecks we need to concern, where either on CPU or GPU.</p>
+<h4>PerfHUD, GPU Profiler from NVidia</h4>
+<p>On the GPU side, PerfHUD 6 is a visual debugging and profiling tool that can help you find and fix problems in your graphics rendering pipeline.</p>
+<p>It  does  this  by  letting  you  explore  and  edit  data  in  the  graphics  pipeline,  all  while  your application  is  running. PerfHUD also offers automated performance analysis  to quickly  identify the most expensive draw calls.</p>
+<p style="text-align: justify;">Even PerfHUD has been created with the highly concern on a seamless intregration between the profiler and user's application. It still requires  a  small  code  change  in  how  you  create  your  Direct3D  device  in  order  to enable  analysis.  When this process have been completed, PerfHUD will let  you  explore  an  application’s  rendering  pipeline  and methodology in extreme detail.</p>
+<h4 style="text-align: justify;">Intel VTune Performance Analyser, CPU Profiler<br /></h4>
+<p>Perhaps the most fundamental part of performance tuning involves identifying the location of performance bottlenecks and determining how to fix them. For this task, the best solution requires access to a profiling technology that does not change the performance of the software, so that the measured performance accurately reflects what the application really does.</p>
+<p>Ideally, a tool not only finds performance bottlenecks, it also helps the developer generate ideas about what can be done to address bottlenecks. The most difficult part of performance tuning involves determining how to make those bottlenecks go away.</p>
+<p style="text-align: justify;">The VTune™ Performance Analyzer provides all of these capabilities for both Windows* and Linux* on Intel 32-bit and 64-bit processors. This tool uses occasional hardware interrupts to identify performance bottlenecks in a low-intrusive technology called Sampling. With this technology, samples of the CPU’s execution context are taken in real time while using post-execution analysis to identify the locations of CPU bottlenecks. This allows the developer to drill down all the way to the source code for specific bottleneck locations.</p>
+<p style="text-align: justify;"> </p> </div>
+</div>
+<div class="cleared"></div>
+<div class="art-postmetadatafooter">
+<div class="art-postfootericons art-metadata-icons">
+<img src="http://my-site:5000/cms/joomla17/templates/tpl_content01/images/postcategoryicon.png" alt="postcategoryicon" width="18" height="18" />Category: <span class="art-post-metadata-category-name"><a href="http://my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog">HonoursProjectBlog</a></span>
+</div>
+</div>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+</div>
+</body>
+
+<!-- Mirrored from my-site:5000/cms/joomla17/index.php/developerblog/10-honoursprojectblog/52-profiling-tools?tmpl=component&print=1&layout=default&page= by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 23:20:02 GMT -->
+</html>

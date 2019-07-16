@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>DeveloperBlog</title>
+		<description><![CDATA[Game, Graphic programming, Guitar and Cooking ]]></description>
+		<link>http://my-site:5000/cms/joomla17/index.php/developerblog</link>
+		<lastBuildDate>Mon, 15 Jul 2019 22:43:32 +0000</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="http://my-site:5000/cms/joomla17/index.php/developerblog?format=feed&amp;type=rss"/>
+		<language>en-gb</language>
+		<item>
+			<title>A very funny spoof of Driver:SF </title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/109-a-very-funny-spoof-of-driversf</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/109-a-very-funny-spoof-of-driversf</guid>
+			<description><![CDATA[<div class="feed-description"><p>
+	<img alt="" src="http://www.edge-online.com/files/images/driver_san_fran_shift.jpg" /></p>
+<p>
+	From GameTrailer, share this from my friend&#39;s FB today</p>
+</div>]]></description>
+			<author>aik6980@aikdev.co.uk (Super User)</author>
+			<category>DeveloperBlog</category>
+			<pubDate>Fri, 29 Jun 2012 12:09:37 +0000</pubDate>
+		</item>
+		<item>
+			<title>Dancing for Just Dance due to the World Dance Day</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/108-dancing-for-just-dance-due-to-the-world-dance-day</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/108-dancing-for-just-dance-due-to-the-world-dance-day</guid>
+			<description><![CDATA[<div class="feed-description"><p>
+	Regarding to <a href="http://en.wikipedia.org/wiki/International_Dance_Day">the World Dance Day (29th April)</a></p>
+<p>
+	Since we, Reflections, are the developers behind JustDance, a popular dancing game and we think we should do something special for this particular day. So we dance ...</p>
+</div>]]></description>
+			<author>aik6980@aikdev.co.uk (Super User)</author>
+			<category>DeveloperBlog</category>
+			<pubDate>Thu, 28 Jun 2012 17:58:11 +0000</pubDate>
+		</item>
+		<item>
+			<title>C++ Faqs, Notes and Snippets</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/17-c-faqs-notes-and-snippets</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/17-c-faqs-notes-and-snippets</guid>
+			<description><![CDATA[<div class="feed-description"><p>
+	The collection of C++ questions, notes and snippets</p>
+</div>]]></description>
+			<author>aik6980@aikdev.co.uk (Super User)</author>
+			<category>DeveloperBlog</category>
+			<pubDate>Tue, 21 Dec 2010 09:24:10 +0000</pubDate>
+		</item>
+		<item>
+			<title>AikDev Evolution</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/103-aikdev-evolution</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/103-aikdev-evolution</guid>
+			<description><![CDATA[<div class="feed-description"><p>
+	<img alt="" src="http://5magazine.files.wordpress.com/2011/01/evolution5.jpg" style="width: 426px; height: 318px; " /></p>
+<p>
+	Here I&#39;m recording the history of how I have developed my website</p>
+</div>]]></description>
+			<author>aik6980@aikdev.co.uk (Super User)</author>
+			<category>DeveloperBlog</category>
+			<pubDate>Fri, 13 Jan 2012 22:58:06 +0000</pubDate>
+		</item>
+		<item>
+			<title>Pitfall, designing to the limit </title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/106-pitfall-designing-to-the-limit</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/106-pitfall-designing-to-the-limit</guid>
+			<description><![CDATA[<div class="feed-description"><p>
+	<img alt="" src="http://img528.imageshack.us/img528/9383/pitfall.jpg" style="width: 500px; height: 375px; " /></p>
+<p>
+	Famed game designer David Crane talks about his design challenges creating Pitfall for the Atari 2600.&nbsp;He practically has put the console to its limit nicely with his brilliant game idea,&nbsp;and this surely had brought one of the best gaming moments to many people, including me.</p>
+<div>
+	<div>
+		</div>]]></description>
+			<author>aik6980@aikdev.co.uk (Super User)</author>
+			<category>DeveloperBlog</category>
+			<pubDate>Fri, 27 Jan 2012 17:24:18 +0000</pubDate>
+		</item>
+		<item>
+			<title>SN-DBS for PS3, My experience</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/100-sn-dbs-for-ps3-my-experience</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/100-sn-dbs-for-ps3-my-experience</guid>
+			<description><![CDATA[<div class="feed-description"><p>
+	<img alt="" src="http://www.snsys.com/res/images/diagrams/Compile_Times_By_Agents_Smaller.png" style="width: 312px; height: 338px; " /></p>
+<p>
+	<strong>Overview</strong></p>
+<p>
+	SN-DBS slashes compile times by distributing your source code builds between cooperating PCs on your local area network. This is my experience of using SNDBS for PS3, based on version 2.2</p>
+</div>]]></description>
+			<author>aik6980@aikdev.co.uk (Super User)</author>
+			<category>DeveloperBlog</category>
+			<pubDate>Thu, 12 Jan 2012 19:24:45 +0000</pubDate>
+		</item>
+		<item>
+			<title>Boost C++ Libraries, for better coding</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/50-c-libraries-for-better-coding</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/50-c-libraries-for-better-coding</guid>
+			<description><![CDATA[<div class="feed-description"><h4>C++ Boost Library</h4>
+<p>The current version of standard C++ was finalized inn 1998. The language offers robust support for traditional procedural programming as well as object-oriented and generic programming.<br />The integration of the standard template library (STL) in the mid-1990s represent as much a paradigm shift as did Bjarne Stroustrup's adding classes to C in the early 80s. Now that the majority of C++ programmers are proficient with concepts of STL, it's once again time to raise the bar</p>
+</div>]]></description>
+			<author>aik6980@aikdev.co.uk (Super User)</author>
+			<category>DeveloperBlog</category>
+			<pubDate>Wed, 31 Dec 2008 01:38:30 +0000</pubDate>
+		</item>
+		<item>
+			<title>David Potter Memorial Prize</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/14-david-potter-memorial-prize</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/14-david-potter-memorial-prize</guid>
+			<description><![CDATA[<div class="feed-description"><hr />
+<h1>December 25, 2006 : David Potter Memorial Prize</h1>
+<h4>My first prize after a first year in Abertay university.</h4>
+<a href="http://my-site:5000/cms/joomla17/../../resources/photo/070622_davidpotter/dscn0077.jpg" target="_blank"> <img src="http://my-site:5000/cms/joomla17/../../resources/photo/070622_davidpotter/thumb/dscn0077_th.jpg" /></a> 
+</div>]]></description>
+			<category>DeveloperBlog</category>
+			<pubDate>Mon, 25 Dec 2006 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>May 4, 2007 : 8Bits and Beyond</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/8-may-4-2007-8bits-and-beyond</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/8-may-4-2007-8bits-and-beyond</guid>
+			<description><![CDATA[<div class="feed-description"><hr />
+<h1>May 4, 2007 : 8Bits and Beyond</h1>
+<h4>Computer Games Showcase, Dundee</h4>
+<a href="http://my-site:5000/cms/joomla17/../../resources/photo/070604_8bit_beyond/dscn0035.jpg" target="_blank"><img src="http://my-site:5000/cms/joomla17/../../resources/photo/070604_8bit_beyond/thumb/dscn0035_th.jpg" /></a><a href="http://my-site:5000/cms/joomla17/../../resources/photo/070604_8bit_beyond/dscn0054.jpg" target="_blank"> <img src="http://my-site:5000/cms/joomla17/../../resources/photo/070604_8bit_beyond/thumb/dscn0054_th.jpg" /></a> 
+</div>]]></description>
+			<category>DeveloperBlog</category>
+			<pubDate>Fri, 04 May 2007 00:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>I'm a Sony Prize winner!!, also CV Section has been updated.</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/18-im-a-sony-prize-winner-also-cv-section-has-been-updated</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/18-im-a-sony-prize-winner-also-cv-section-has-been-updated</guid>
+			<description><![CDATA[<div class="feed-description"><img src="http://my-site:5000/cms/joomla17/../../resources/photo/070622_davidpotter/thumb/dscn0024_th.jpg" /> <img src="http://my-site:5000/cms/joomla17/../../resources/photo/070622_psp/thumb/dscn0072_th.jpg" />
+<p> </p>
+<p>Congratulations to myself! last month I've just got the biggest prize from sony for my PS2 game project this year. Accordingly, I've updated <a href="http://my-site:5000/cms/joomla17/index.php?option=com_content&amp;view=article&amp;id=3:cv&amp;catid=3:cvcv&amp;Itemid=5">my CV section</a> and also put some pictures of them with proudly presented.</p></div>]]></description>
+			<category>DeveloperBlog</category>
+			<pubDate>Sat, 19 Jul 2008 10:45:02 +0000</pubDate>
+		</item>
+		<item>
+			<title>Dare Schools Challenge 2007</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/19-dare-schools-challenge-2007</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/19-dare-schools-challenge-2007</guid>
+			<description><![CDATA[<div class="feed-description"><img src="http://my-site:5000/cms/joomla17/../../resources/photo/070622_dareschools/game/escape_poster_th.jpg" /> <img src="http://my-site:5000/cms/joomla17/../../resources/photo/070622_dareschools/thumb/dscn0061_th.jpg" /> <img src="http://my-site:5000/cms/joomla17/../../resources/photo/070622_dareschools/thumb/dscn0057_th.jpg" />
+<p> </p>
+<p>First of all, I've finished adding <a href="http://my-site:5000/cms/joomla17/index.php?option=com_content&amp;view=category&amp;id=7:photo-gallery&amp;layout=blog&amp;Itemid=17">the Photo Album section</a> into the website. The photobook is my plan since I started building this website, in order to make the web content doesn't look very academic intense. Not only that, You might be able to know me better through the pictures.<br />Secondly, I want to say something about my first job in UK. Even it just only two weeks long, honestly, It made myself exactly sure that I'm walking on the right path to be a game programmer.</p>
+</div>]]></description>
+			<category>DeveloperBlog</category>
+			<pubDate>Sat, 19 Jul 2008 11:02:49 +0000</pubDate>
+		</item>
+		<item>
+			<title>Dare to be Digital, Protoplay 2007</title>
+			<link><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/20-dare-to-be-digital-protoplay-2007</link>
+			<guid isPermaLink="true"><a href="http://my-site">http://my-site</a>:5000/cms/joomla17/index.php/developerblog/20-dare-to-be-digital-protoplay-2007</guid>
+			<description><![CDATA[<div class="feed-description"><p><img src="http://my-site:5000/cms/joomla17/../../resources/photo/070816_edinburghdare/thumb/scratch01_th.jpg" /> <img src="http://my-site:5000/cms/joomla17/../../resources/photo/070816_edinburghdare/thumb/scratch06_th.jpg" /> <img src="http://my-site:5000/cms/joomla17/../../resources/photo/070816_edinburghdare/thumb/earth14_th.jpg" /></p>
+<p><strong></strong></p>
+<p><strong>Updated <a href="http://my-site:5000/cms/joomla17/index.php?option=com_content&amp;view=article&amp;id=3:cv&amp;catid=3:cvcv&amp;Itemid=5">CV section</a></strong><br />Updated <a href="http://my-site:5000/cms/joomla17/index.php?option=com_content&amp;view=category&amp;id=7:photo-gallery&amp;layout=blog&amp;Itemid=17">Photo album</a></p>
+<p><br />It has been a month, which I was busy working with my GBA tutor on the next term tutorials, that I believe it gonna be my next job. After his approval,the tutorial section in this website might be able to start as well. ;)<br />Besides, I've been working for <a target="_blank" href="http://www.daretobedigital.com/">Dare to be Digital</a> last month in Edinburgh. My responsibility is to show and instruct our event's guests to try some basic game programming using <a target="_blank" href="http://scratch.mit.edu/">SCRATCH software</a>. Basically, it's almost the same job I did before with Henry so I can catch a grip very quickly.</p>
+</div>]]></description>
+			<category>DeveloperBlog</category>
+			<pubDate>Sat, 19 Jul 2008 11:35:41 +0000</pubDate>
+		</item>
+	</channel>
+</rss>
